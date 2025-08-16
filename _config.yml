@@ -40,10 +40,12 @@ sphinx:
       tex:
         macros:
           "vec" : ["\\mathbf{#1}", 1]
+          "tr" : ["\\operatorname{tr}"]
           "T" : ["\\mathsf{T}"]
           "F" : ["\\mathsf{F}"]
           "EE" : ["\\mathbb{E}"]
           "PP" : ["\\mathbb{P}"]
+          "VV" : ["\\mathbb{V}"]
           "R" : ["\\mathbb{R}"]
           "cond" : ["\\operatorname{cond}"]
           "range" : ["\\operatorname{range}"]

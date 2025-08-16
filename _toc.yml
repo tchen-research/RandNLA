@@ -30,6 +30,7 @@ chapters:
   sections:
   - file: Trace-Estimation/girard-hutchinson.ipynb
   - file: Trace-Estimation/variance-reduction.ipynb
+  - file: Trace-Estimation/spectrum-spectral-sum-approximation.ipynb
   - file: Trace-Estimation/integration-with-krylov-methods.ipynb
 - file: Sampling-Based-Methods/intro.md
   sections:
@@ -39,4 +40,4 @@ chapters:
   - file: Sampling-Based-Methods/cur.ipynb
   - file: Sampling-Based-Methods/active-regression.ipynb
   - file: Sampling-Based-Methods/sgd-kaczmarz.ipynb
-  
+- file: references.md

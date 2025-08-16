@@ -31,7 +31,7 @@ There are many existing resources on RandNLA.
 
 TODO
 
-
 ## References
 ```{bibliography}
+:filter: docname in docnames
 ```
