@@ -3,15 +3,19 @@
 
 format: jb-book
 root: intro
+options:
+  numbered: true
 chapters:
 - file: Background/intro.md
   sections:
   - file: Background/review.ipynb
   - file: Background/cost-of-numerical-linear-algebra.ipynb
-  - file: Background/dimension-reduction-subspace-embedding.ipynb
+  - file: Background/sketching.ipynb
+  - file: Background/subspace-embedding.ipynb
 - file: QR-Factorization/intro.md
   sections:
   - file: QR-Factorization/cholesky-qr.ipynb
+  - file: QR-Factorization/randomized-cholesky-qr.ipynb
 - file: Regression/intro.md
   sections:
   - file: Regression/cholesky-qr.ipynb

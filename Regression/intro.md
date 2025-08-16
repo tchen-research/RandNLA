@@ -1,4 +1,4 @@
-#  Regression
+#  Linear Regression
 
 
 Linear regression is one of the core tasks in numerical linear algebra.
@@ -32,14 +32,6 @@ We identify two shortcomings of the above algorithm that can each be addressed t
 
 - The dominant cost is computing a matrix factorization which, as we have seen in our discussion on the [cost of linear algebra](../Background/cost-of-numerical-linear-algebra.ipynb), does not have a particularly high flop-rate. 
 - The total number of flops is $O(nd^2)$, which might be too expensive when $n\gg d \gg 1$.
-
-
-
-## Table of Concents
-
-```{tableofcontents}
-```
-
 
 
 

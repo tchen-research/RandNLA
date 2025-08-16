@@ -31,6 +31,7 @@ html:
   use_issues_button: true
   use_repository_button: true
 
+
 sphinx:
   extra_extensions:
     - sphinx_proof
@@ -44,6 +45,11 @@ sphinx:
           "EE" : ["\\mathbb{E}"]
           "PP" : ["\\mathbb{P}"]
           "R" : ["\\mathbb{R}"]
+          "cond" : ["\\operatorname{cond}"]
+          "range" : ["\\operatorname{range}"]
+          "Call" : ["\\textsf{#1}",1]
+          "smin" : ["\\sigma_{\\textup{min}}"]
+          "smax" : ["\\sigma_{\\textup{max}}"]
     html_context:
       default_mode: light # In _config.yml 
     bibtex_reference_style: author_year

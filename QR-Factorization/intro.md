@@ -16,12 +16,6 @@ These algorithms are numerically stable, but inherently sequential, leading to r
 
 
 
-## Table of Concents
-
-```{tableofcontents}
-```
-
-
 
 
 
