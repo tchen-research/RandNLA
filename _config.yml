@@ -3,7 +3,6 @@
 
 title: RandNLA with Examples
 author: Tyler Chen
-logo: logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -35,6 +34,7 @@ html:
 sphinx:
   extra_extensions:
     - sphinx_proof
+    - sphinx_togglebutton
   config:
     mathjax3_config:
       tex:
@@ -52,6 +52,15 @@ sphinx:
           "Call" : ["\\textsf{#1}",1]
           "smin" : ["\\sigma_{\\textup{min}}"]
           "smax" : ["\\sigma_{\\textup{max}}"]
+          "llbracket" : ["[\\mkern-2mu["]
+          "rrbracket" : ["]\\mkern-2mu]"]
+          "bOne" : ["\\mathbb{I}"]
+          "d" : ["\\mathrm{d}"]
     html_context:
       default_mode: light # In _config.yml 
     bibtex_reference_style: author_year
+
+    html_theme_options:
+      logo:
+        image_light: logo.png
+        image_dark: logo-black.png

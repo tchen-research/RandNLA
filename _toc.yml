@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 options:
-  numbered: true
+  numbered: 3
 chapters:
 - file: Background/intro.md
   sections:
@@ -31,7 +31,7 @@ chapters:
   - file: Trace-Estimation/girard-hutchinson.ipynb
   - file: Trace-Estimation/variance-reduction.ipynb
   - file: Trace-Estimation/spectrum-spectral-sum-approximation.ipynb
-  - file: Trace-Estimation/integration-with-krylov-methods.ipynb
+  - file: Trace-Estimation/krylov-aware-methods.ipynb
 - file: Sampling-Based-Methods/intro.md
   sections:
   - file: Sampling-Based-Methods/approximate-matrix-multiplication.ipynb
