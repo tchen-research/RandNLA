@@ -17,15 +17,18 @@ chapters:
   - file: Sketching/sparse-sketch.md
   - file: Sketching/trig-sketch.md
   - file: Sketching/which-sketch-should-i-use.ipynb
+  - file: Sketching/leverage-scores.md
 - file: QR-Factorization/intro.md
   sections:
   - file: QR-Factorization/cholesky-qr.ipynb
   - file: QR-Factorization/randomized-cholesky-qr.ipynb
 - file: Regression/intro.md
   sections:
-  - file: Regression/cholesky-qr.ipynb
+  - file: Regression/normal-equations.ipynb
   - file: Regression/sketch-and-solve.ipynb
   - file: Regression/sketch-and-precondition.ipynb
+  - file: Regression/active-regression.ipynb
+  - file: Regression/randomized-Kaczmarz.ipynb
 - file: Low-Rank-Approximation/intro.md
   sections:
   - file: Low-Rank-Approximation/randomized-svd.ipynb
