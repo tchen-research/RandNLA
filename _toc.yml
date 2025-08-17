@@ -10,8 +10,13 @@ chapters:
   sections:
   - file: Background/review.ipynb
   - file: Background/cost-of-numerical-linear-algebra.ipynb
-  - file: Background/sketching.ipynb
-  - file: Background/subspace-embedding.ipynb
+- file: Sketching/intro.md
+  sections:
+  - file: Sketching/subspace-embedding.md
+  - file: Sketching/Gaussian-sketch.md
+  - file: Sketching/sparse-sketch.md
+  - file: Sketching/trig-sketch.md
+  - file: Sketching/which-sketch-should-i-use.ipynb
 - file: QR-Factorization/intro.md
   sections:
   - file: QR-Factorization/cholesky-qr.ipynb

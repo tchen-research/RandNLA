@@ -30,6 +30,8 @@ html:
   use_issues_button: true
   use_repository_button: true
 
+execute:
+  execute_notebooks: 'off'
 
 sphinx:
   extra_extensions:
@@ -56,6 +58,7 @@ sphinx:
           "rrbracket" : ["]\\mkern-2mu]"]
           "bOne" : ["\\mathbb{I}"]
           "d" : ["\\mathrm{d}"]
+          "nnz" : ["\\operatorname{nnz}"]
     html_context:
       default_mode: light # In _config.yml 
     bibtex_reference_style: author_year

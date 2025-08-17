@@ -8,7 +8,7 @@ We focus on intuition, conceptual understanding, and ~vibes~.
 More mathematically detailed treatments are left to existing literature.
 
 This is a living document, and we welcome contributions and suggestions for improvement.
-In particular readers can fix typos, update or add references, and suggest changes on Github.
+In particular readers can fix typos, update or add references/experiments/information, and suggest changes on Github.
 
 
 
