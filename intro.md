@@ -1,3 +1,7 @@
+---
+numbering: false
+---
+
 # Randomized Numerical Linear Algebra
 
 Randomized Numerical Linear Algebra (RandNLA) is a subfield of [numerical linear algebra](https://en.wikipedia.org/wiki/Numerical_linear_algebra) that focuses on the use of randomization as a tool to develop more efficient/accurate algorithms for solving linear algebra tasks.
@@ -34,7 +38,6 @@ There are many existing resources on RandNLA. The following surveys are of parti
 In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many accessible posts on RandNLA topics, as well as numerical experiments and code snippets.
 
 
-## References
 ```{bibliography}
 :filter: docname in docnames
 ```
