@@ -1,38 +1,27 @@
 # Sketching
 
 
-The workhorse of RandNLA is a technique called *sketching*. 
+The workhorse of RandNLA is a technique called *sketching*.[^linear-sketch]
 Sketching is a way to take a large matrix and create a smaller matrix (called a sketch) that approximates key properties of the original matrix.[^sketch]
-In RandNLA, sketching is almost always done using a linear transform of the original matrix.
 
 ![](./sketch_def.svg)
 
-
+[^linear-sketch]: In RandNLA, sketching is almost always done using a linear transform of the original matrix.
 [^sketch]: This is like how a sketch captures the essence of an original image without all the details.
 
-Many sketching methods can be categorized by whether they mix the rows of $\vec{A}$ together or subsample them.
 
-<h2>Mixing based sketching</h2>
+An example of sketching is illustrated in the above figure. 
+Here a sketching matrix $\vec{S}$ with *sketching/embedding dimension* $k$ is applied to a $n\times d$ input matrix $\vec{A}$.
+The resulting $k\times d$ sketch $\vec{S}\vec{A}$ is much smaller than the original matrix.
 
-Mixing-based sketching methods produce a sketch $\vec{S}\vec{A}$ where each row of the sketch is a linear combination of multiple rows of $\vec{A}$.
-Often such methods are *obvlious*, meaning the sketching distribution does not depend on the input matrix $\vec{A}$ (other than through the dimension).
-The most common mixing-type sketching distributions are:
+When choosing a sketching distribution, two important considerations are:
+- How fast the sketching matrix can be generated and applied to $\vec{A}$,
+- How well the sketch $\vec{S}\vec{A}$ approximates the original matrix $\vec{A}$.
 
-- [Gaussian](./Gaussian-sketch.md)
-- [Sparse](./sparse-sketch.md)
-- [Trigonometric](./trig-sketch.md)
+While these two considerations are often at odds with each other, by choosing the sketch at random from a suitable distribution, we can often achieve a good balance between the two.
+In fact, in many algorithms in RandNLA, the randomness in the sketching matrix is the only source of randomness in the entire problem, and is only needed to ensure the above two considerations.
 
-Each have their own pros and cost (in theory and in practice). 
-In the subsequent sections, we will introduce all of these methods. 
-We then compare them head to head in [numerical experiments](./which-sketch-should-i-use.ipynb).
 
-<h2>Subsampling based sketching</h2>
-
-Subsampling-based sketching methods produce a sketch $\vec{S}\vec{A}$ where each row of the sketch is a scaling of single row of $\vec{A}$.
-Typically these rows are selected based on their "importance", and hence the sketching distribution depends on the input matrix $\vec{A}$.
-While not suitable for all settings, adaptive sketching offers the potential for *sublinear* algorithms (i.e. algorithms that run faster than it takes to look at every entry of the input).
-The most common types of subsampling-based sketching distributions are:
-
-- [Leverage scores](./leverage-scores.md)
-- Row norm sampling
-
+In this book, we treat sketches that [mix](./mixing-sketches.md) the rows of $\vec{A}$ and sketches that  [subsample](./subsampling-sketches.md) the rows of $\vec{A}$ as conceptually different.
+We primarily focus on algorithms based on mixing-based sketches, since these tend to be most suitable as a default choice algorithm in many settings. 
+We discuss subsampling-based methods, which can provide substantial speedups in certain contexts, in the Chapter on [](../Sampling-Based-Methods/intro.md).

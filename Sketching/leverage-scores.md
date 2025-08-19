@@ -31,6 +31,7 @@ Here $\Call{leverage-dist}(\vec{A})$ is the distribution on $\{1,\ldots,n\}$ tha
 
 Note that applying the Leverage score sampling matrix amounts to extracting rows, and therefore $\vec{S}$ can be applied to matrices and vectors *without reading the whole input*.
 
+## Subspace Embedding
 
 Leverage score sampling gives a subspace embedding:
 ````{prf:theorem} 
@@ -42,3 +43,5 @@ k = O\left( \frac{d \log(d/\delta)}{\varepsilon^2} \right).
 ````
 
 A nice proof of this can be found on Raphael's [wiki](https://randnla.github.io/leverage-subspace-embedding/).
+
+## Approximate Matrix Multiplication

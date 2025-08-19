@@ -8,6 +8,7 @@ Concretely, we wish to solve the minimization problem:
 \min_{\vec{x}\in\R^d} \|\vec{b}-\vec{A}\vec{x}\|
 ,\qquad \vec{A}\in\R^{n\times d}, \quad \vec{b}\in\R^n.
 ```
+For convenience, we will assume that $\vec{A}$ is full-rank.
 
 <h2>Direct Methods</h2>
 
