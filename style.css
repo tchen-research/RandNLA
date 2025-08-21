@@ -1,14 +1,14 @@
-
+/* 
 body {
-    font-family: Vollkorn, serif;
+    font-family: 'Vollkorn', serif;
     font-size: 14px !important;
-}
+} */
 
-tbody {
-    font-family: monospace;
-}
-
-h1, h2, h3 {
+/* h1, h2, h3 {
     font-family: Lato, sans-serif;
     font-weight: bold !important;
+} */
+
+p {
+    text-align: justify;
 }

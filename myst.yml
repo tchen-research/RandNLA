@@ -96,6 +96,7 @@ project:
 site:
   template: book-theme
   options:
+    style: style.css
     logo: logo.png
     # favicon: favicon.ico
 

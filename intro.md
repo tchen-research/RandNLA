@@ -20,8 +20,6 @@ A basic refresher is provided [here](../Background/review.ipynb).
 This is a living document, and we welcome contributions and suggestions for improvement.
 In particular readers can fix typos, update or add references/experiments/information, and suggest changes on Github.
 
-
-
 ## Other Resources
 
 
@@ -37,7 +35,8 @@ There are many existing resources on RandNLA. The following surveys are of parti
 
 In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many accessible posts on RandNLA topics, as well as numerical experiments and code snippets.
 
-
 ```{bibliography}
 :filter: docname in docnames
 ```
+
+

@@ -24,4 +24,4 @@ In fact, in many algorithms in RandNLA, the randomness in the sketching matrix i
 
 In this book, we treat sketches that [mix](./mixing-sketches.md) the rows of $\vec{A}$ and sketches that  [subsample](./subsampling-sketches.md) the rows of $\vec{A}$ as conceptually different.
 We primarily focus on algorithms based on mixing-based sketches, since these tend to be most suitable as a default choice algorithm in many settings. 
-We discuss subsampling-based methods, which can provide substantial speedups in certain contexts, in the Chapter on [](../Sampling-Based-Methods/intro.md).
+We discuss subsampling-based methods, which can provide substantial speedups in certain contexts, in the chapter on [](../Sampling-Based-Methods/intro.md).
