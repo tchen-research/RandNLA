@@ -10,7 +10,6 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   numbering:
     figure: true
-    equation: true
     code: true
     table: true
     title: true
@@ -27,6 +26,7 @@ project:
     - file: Background/intro.md
       children:
         - file: Background/review.ipynb
+        - file: Background/probability.md
         - file: Background/cost-of-numerical-linear-algebra.ipynb
     - file: Sketching/intro.md
       children:
@@ -96,7 +96,9 @@ project:
 site:
   template: book-theme
   options:
+    analytics_google: UA-50592837-1 
     style: style.css
     logo: logo.png
-    # favicon: favicon.ico
+    logo_dark: logo-black.png
+    favicon: favicon.ico
 

@@ -1,4 +1,10 @@
-# Subspace Embedding
+---
+title: Subspace Embedding
+description: Definition and characterization of subspace embeddings for preserving geometry in sketching methods
+keywords: [subspace embedding, sketching, distortion, geometry preservation, singular values, orthonormal basis]
+---
+
+## Subspace Embedding
 
 Perhaps the most important property of a sketching matrix is that it preserves the geometry of a subspace.
 This is quantified by the following definition: 

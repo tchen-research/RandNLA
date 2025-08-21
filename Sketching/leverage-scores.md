@@ -1,4 +1,10 @@
-# Leverage Score Sketching
+---
+title: Leverage Score Sketching
+description: Leverage score-based subsampling for matrix sketching including definitions, properties, and applications
+keywords: [leverage scores, leverage score sampling, subspace embedding, matrix sketching, row importance, approximate matrix multiplication]
+---
+
+## Leverage Score Sketching
 
 
 ````{prf:definition}

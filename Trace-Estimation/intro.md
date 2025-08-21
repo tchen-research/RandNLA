@@ -1,10 +1,24 @@
-# Trace Estimation
+---
+title: Trace Estimation
+description: Randomized algorithms for estimating matrix traces when matrices are accessible only through matrix-vector products
+keywords: [trace estimation, matrix-vector products, implicit matrices, black-box linear operators, differential equations, matrix functions]
+numbering:
+  equation:
+    enumerator: 6.%s
+---
+
+## Trace Estimation
 
 
-A number of applications involve computing the trace of a matrix 
-```{math}
-\tr(\vec{A}) = \sum_{i=1}^n A_{ii}.
-```
+:::{admonition} Implicit Trace Estimation
+:label: task-trace-est
+Given $\vec{A}\in\R^{n\times n}$, estimate 
+\begin{equation*}
+\tr(\vec{A}) = \sum_{i=1}^n A_{ii}
+\end{equation*}
+using only matrix-vector products with $\vec{A}$.
+:::
+
 At first glance, it might seem silly that this book would spend any time on algorithms for this task. 
 After all, we can compute the trace of a matrix by simply reading and summing its diagonal entries.
 The challenge arises when $\vec{A}$ is not available explicitly, but is instead accessibly only as a block-box linear operator which we can access through [matrix-vector products](../Background/cost-of-numerical-linear-algebra.ipynb) $\vec{x} \mapsto \vec{A}\vec{x}$.

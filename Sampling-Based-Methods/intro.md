@@ -1,4 +1,13 @@
-# Sampling-Based Methods
+---
+title: Sampling-Based Methods
+description: Strategic sampling approaches for matrix operations including importance sampling, CUR decomposition, and adaptive methods
+keywords: [sampling-based methods, importance sampling, leverage scores, CUR decomposition, sparse matrices, distributed computing, adaptive sampling]
+numbering:
+  equation:
+    enumerator: 7.%s
+---
+
+## Sampling-Based Methods
 
 Sampling-based methods represent a different paradigm in randomized numerical linear algebra, where instead of using random projections or embeddings, we strategically sample rows, columns, or entries of matrices. These methods are particularly effective for sparse matrices and problems where communication costs dominate computation.
 

@@ -1,4 +1,13 @@
-# Low-Rank Approximation
+---
+title: Low-Rank Approximation
+description: Overview of randomized methods for low-rank matrix approximation including SVD, subspace iteration, and Nyström methods
+keywords: [low-rank approximation, randomized SVD, subspace iteration, block Krylov, Nyström method, singular value decomposition, matrix compression]
+numbering:
+  equation:
+    enumerator: 5.%s
+---
+
+## Low-Rank Approximation
 
 Low-rank approximation is a fundamental problem in numerical linear algebra with applications spanning data compression, machine learning, and scientific computing. Given a matrix $A \in \mathbb{R}^{m \times n}$, the goal is to find a matrix $\tilde{A}$ of rank $k \ll \min(m,n)$ that minimizes $\|A - \tilde{A}\|$ in some appropriate norm.
 

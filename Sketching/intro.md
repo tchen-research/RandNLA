@@ -1,3 +1,12 @@
+---
+title: Sketching
+description: Introduction to sketching techniques in randomized numerical linear algebra, covering mixing and subsampling approaches for matrix approximation.
+keywords: [sketching, matrix sketching, subspace embedding, mixing sketches, subsampling, dimensionality reduction, random projections]
+numbering:
+  equation:
+    enumerator: 2.%s
+---
+
 # Sketching
 
 
