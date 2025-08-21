@@ -14,7 +14,7 @@ This book does not aim to be a comprehensive survey of state of the field, but r
 
 Readers are expected to be familiar with (numerical) linear algebra.
 We assume readers have a basic understanding of [matrix factorizations](https://en.wikipedia.org/wiki/Matrix_decomposition) (e.g. QR, SVD, etc.) and concepts like [stability](https://en.wikipedia.org/wiki/Numerical_stability) and [conditioning](https://en.wikipedia.org/wiki/Condition_number).
-A basic refresher is provided [here](../Background/review.ipynb).
+A basic refresher is provided [here](../01-Background/review.ipynb).
 
 ## Contributing
 

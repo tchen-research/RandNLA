@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6in"
+   height="3in"
+   viewBox="0 0 152.4 76.2"
+   version="1.1"
+   id="svg185"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="sketch_def.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview187"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5518659"
+     inkscape:cx="330.24761"
+     inkscape:cy="142.40921"
+     inkscape:window-width="1864"
+     inkscape:window-height="1000"
+     inkscape:window-x="56"
+     inkscape:window-y="41"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs182" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke-width:0.999996;stroke-linecap:round;stroke-miterlimit:3;paint-order:fill markers stroke;stroke:#000000;stroke-opacity:1"
+       id="rect358"
+       width="20"
+       height="60.000004"
+       x="70.754875"
+       y="7.6722159" />
+    <rect
+       style="fill:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:3;paint-order:fill markers stroke;stroke:#000000;stroke-opacity:1"
+       id="rect358-6"
+       width="22"
+       height="60.000004"
+       x="7.7574639"
+       y="-68.43943"
+       transform="rotate(90)" />
+    <rect
+       style="fill:none;stroke-width:0.999998;stroke-linecap:round;stroke-miterlimit:3;paint-order:fill markers stroke;stroke:#000000;stroke-opacity:1"
+       id="rect358-3"
+       width="20"
+       height="22"
+       x="110.05368"
+       y="8.2689438" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.8167px;line-height:1.1;font-family:'Helvetica Condensed';-inkscape-font-specification:'Helvetica Condensed, ';letter-spacing:0px;word-spacing:0.0079375px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:3;stroke-opacity:1;paint-order:fill markers stroke"
+       x="32.308552"
+       y="24.892078"
+       id="text1140"><tspan
+         sodipodi:role="line"
+         id="tspan1138"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="32.308552"
+         y="24.892078">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.8167px;line-height:1.1;font-family:'Helvetica Condensed';-inkscape-font-specification:'Helvetica Condensed, ';letter-spacing:0px;word-spacing:0.0079375px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:3;stroke-opacity:1;paint-order:fill markers stroke"
+       x="74.924187"
+       y="24.715714"
+       id="text1140-1"><tspan
+         sodipodi:role="line"
+         id="tspan1138-2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="74.924187"
+         y="24.715714">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.8167px;line-height:1.1;font-family:'Helvetica Condensed';-inkscape-font-specification:'Helvetica Condensed, ';letter-spacing:0px;word-spacing:0.0079375px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:3;stroke-opacity:1;paint-order:fill markers stroke"
+       x="111.85059"
+       y="22.669788"
+       id="text1140-7"><tspan
+         sodipodi:role="line"
+         id="tspan1138-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="111.85059"
+         y="22.669788">SA</tspan></text>
+  </g>
+</svg>
