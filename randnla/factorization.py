@@ -11,7 +11,7 @@ def cholesky_QR(A):
 
     return Q, R
 
-def sketched_qr(A,k,zeta,rng):
+def sketched_qr(A,k,zeta,rng,return_sketch=False):
 
     n, d = A.shape
     S = sparse_stack_sketch(n,k,zeta,rng) 
@@ -19,6 +19,8 @@ def sketched_qr(A,k,zeta,rng):
     R = np.linalg.qr(Y, mode='r') 
     Q = sp.linalg.solve_triangular(R.T,A.T,lower=True).T 
     
+    if return_sketch:
+        return Q, R, S
     return Q, R
 
 def randomized_cholesky_QR(A,k,zeta,rng):
