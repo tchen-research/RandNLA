@@ -54,7 +54,7 @@ The following are equivalent:
 - $1-\varepsilon \leq \smin(\vec{S}\vec{V}) \leq \smax(\vec{S}\vec{V}) \leq 1+\varepsilon$.
 :::
 
-````{prf:proof}
+:::{prf:proof}
 :class: dropdown
 :enumerated: false
 
@@ -82,7 +82,7 @@ Finally, note that
 \end{align*}
 
 
-````
+:::
 
 Note that, in some cases, a subspace embedding is defined with respect to the squared norms. 
 This is equivalent, up to constant factors, to the above, since $\sqrt{1+\varepsilon} = 1 + \varepsilon/2 + O(\varepsilon^2)$ as $\varepsilon \to 0$.

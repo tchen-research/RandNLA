@@ -15,6 +15,5 @@ numbering:
     enumerator: 7.%s
 ---
 
-## Sampling-Based Methods
 
 This chapter is in progress.

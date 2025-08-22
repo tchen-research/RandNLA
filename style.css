@@ -1,14 +1,20 @@
 /* 
-body {
-    font-family: 'Vollkorn', serif;
-    font-size: 14px !important;
-} */
-
-/* h1, h2, h3 {
-    font-family: Lato, sans-serif;
-    font-weight: bold !important;
+\definecolor{C0}{HTML}{1d1d1d}
+\definecolor{C1}{HTML}{1e3668}
+\definecolor{C2}{HTML}{199d8b}
+\definecolor{C3}{HTML}{d52f4c}
+\definecolor{C4}{HTML}{5ab2d6}
+\definecolor{C5}{HTML}{ffb268}
 } */
 
 p {
     text-align: justify;
+}
+
+definition
+.bg-blue-50\/80 {
+    background-color: white !important;
+}
+.myst-proof {
+    /* border-left: 4px solid#1e3668; */
 }
