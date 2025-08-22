@@ -26,7 +26,8 @@ project:
     - file: 01-Background/intro.md
       children:
         - file: 01-Background/review.ipynb
-        - file: 01-Background/probability.md
+        - file: 01-Background/role-of-randomness.md
+        - file: 01-Background/measuring-error.md
         - file: 01-Background/cost-of-numerical-linear-algebra.ipynb
     - file: 02-Sketching/intro.md
       children:
@@ -71,7 +72,6 @@ project:
         - file: 07-Sampling-Based-Methods/cur.ipynb
         - file: 07-Sampling-Based-Methods/active-regression.ipynb
         - file: 07-Sampling-Based-Methods/sgd-kaczmarz.ipynb
-    - file: references.md
   math:
   # Note the 'single quotes'
     '\vec': '\mathbf'

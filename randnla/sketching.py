@@ -3,7 +3,7 @@ import scipy as sp
 
 
 def gaussian_sketch(n,k,rng):
-    S = rng.randn(k,n) / np.sqrt(k)
+    S = rng.randn(n,k).T / np.sqrt(k)
     return S
 
 class trig_sketch():

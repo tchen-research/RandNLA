@@ -13,6 +13,7 @@ numbering:
       enumerator: 4.%s
   proof:proposition:
       enumerator: 4.%s
+  heading_2: false
 ---
 
 
@@ -45,3 +46,10 @@ Iterative methods such as LSQR begin with an initial guess $\vec{x}_0$ and itera
 At each iteration, such methods perform a matrix-vector product with $\vec{A}$ and $\vec{A}^\T$, in addition to some vector operations.
 Thus, the matrix-vector products are typically the dominant cost, and require $O(\nnz(\vec{A})) \leq O(nd)$ operations per iteration. 
 While iterative methods are able to take advantage of sparsity in $\vec{A}$, they may require many iterations to converge when $\vec{A}$ is ill-conditioned problems.
+
+## Further Reading
+
+- @clarkson_woodruff_13:
+- @chenakkod_derezinski_dong_rudelson_24
+- @epperly_24:
+- @epperly_meier_nakatsukasa_25:

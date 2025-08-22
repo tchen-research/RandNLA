@@ -19,6 +19,7 @@ numbering:
 
 The workhorse of RandNLA is a technique called *sketching*.[^linear-sketch]
 Sketching is a way to take a large matrix and create a smaller matrix (called a sketch) that approximates key properties of the original matrix.[^sketch]
+Which properties are approximated depends on the specific sketching method used, and the application at hand.
 
 ![](./sketch_def.svg)
 

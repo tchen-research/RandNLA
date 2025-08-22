@@ -13,11 +13,8 @@ numbering:
     enumerator: 5.%s
   proof:proposition:
     enumerator: 5.%s
+  heading_2: false
 ---
-
-## Low-Rank Approximation
-
-Low-rank approximation is a fundamental problem in numerical linear algebra 
 
 
 :::{admonition} Low-rank Approximation
@@ -35,3 +32,8 @@ In particular, if $\vec{A} = \vec{U} \vec{\Sigma} \vec{V}^\T$ is the SVD of $\ve
 \end{equation}
 where $\vec{U}_k$ contains the first $k$ columns of $\vec{U}$, $\vec{\Sigma}_k$ is the diagonal matrix containing the first $k$ singular values, and $\vec{V}_k$ contains the first $k$ columns of $\vec{V}$.
 
+### Further reading
+
+- @halko_martinsson_tropp_11: 
+- @tropp_webber_23: 
+- @meyer_musco_musco_24, @chen_epperly_meyer_musco_rao_25: 

@@ -26,13 +26,13 @@ In particular readers can fix typos, update or add references/experiments/inform
 
 There are many existing resources on RandNLA. The following surveys are of particular note:
 
-- {cite:p}`martinsson_tropp_20`: This survey describes many RandNLA algorithms that have a proven track record for real-world problem instances. The paper treats both the theoretical foundations of the subject and the practical computational issues. 
+- @martinsson_tropp_20: This survey describes many RandNLA algorithms that have a proven track record for real-world problem instances. The paper treats both the theoretical foundations of the subject and the practical computational issues. 
 
-- {cite:p}`murray_etal_23`: This survey explores randomized numerical linear algebra from a software development perspective, emphasizing the potential for standardized "RandBLAS" and "RandLAPACK" libraries to make these algorithms more accessible to practitioners. 
+- @murray_etal_23: This survey explores randomized numerical linear algebra from a software development perspective, emphasizing the potential for standardized "RandBLAS" and "RandLAPACK" libraries to make these algorithms more accessible to practitioners. 
 
-- {cite:p}`tropp_webber_23`: This survey focuses specifically on randomized algorithms for computing low-rank matrix approximations. The work provides detailed non-asymptotic analyses of the performance of these algorithms and contains numerical examples to illustrate the effectiveness of the algorithms.
+- @tropp_webber_23: This survey focuses specifically on randomized algorithms for computing low-rank matrix approximations. The work provides detailed non-asymptotic analyses of the performance of these algorithms and contains numerical examples to illustrate the effectiveness of the algorithms.
 
-- {cite:p}`woodruff_14`: This is an early work on sketching, that provides a TCS-flavored overview of the field as of 2014. The focus is mostly on proving rates, and many of the key concepts in RandNLA are covered.
+- @woodruff_14: This is an early work on sketching, that provides a TCS-flavored overview of the field as of 2014. The focus is mostly on proving rates, and many of the key concepts in RandNLA are covered.
 
 In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many accessible posts on RandNLA topics, as well as numerical experiments and code snippets.
 
