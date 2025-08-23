@@ -53,8 +53,10 @@ project:
     - file: 05-Low-Rank-Approximation/intro.md
       children:
         - file: 05-Low-Rank-Approximation/randomized-svd.ipynb
-        - file: 05-Low-Rank-Approximation/subspace-iteration-block-krylov.ipynb
-        - file: 05-Low-Rank-Approximation/nystrom-generalized-nystrom.ipynb
+        - file: 05-Low-Rank-Approximation/subspace-iteration.ipynb
+        - file: 05-Low-Rank-Approximation/block-krylov.ipynb
+        - file: 05-Low-Rank-Approximation/generalized-nystrom.ipynb
+        - file: 05-Low-Rank-Approximation/nystrom.ipynb
     - file: 06-Trace-Estimation/intro.md
       children:
         # - file: 06-Trace-Estimation/girard-hutchinson.ipynb
