@@ -1,11 +1,11 @@
 import numpy as np
 
-def lsqr(A,b,M,n_iters):
+def lsqr(A,b,x0,M,n_iters):
 
     n,d = A.shape
 
-    x = np.zeros(d)
-    u = np.copy(b)
+    x = np.copy(x0)
+    u = b-A@x
     beta = np.linalg.norm(u)
     u /= beta
     
