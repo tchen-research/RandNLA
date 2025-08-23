@@ -25,7 +25,7 @@ project:
     - file: intro.md
     - file: 01-Background/intro.md
       children:
-        - file: 01-Background/review.ipynb
+        - file: 01-Background/review.md
         - file: 01-Background/role-of-randomness.md
         - file: 01-Background/measuring-error.md
         - file: 01-Background/cost-of-numerical-linear-algebra.ipynb

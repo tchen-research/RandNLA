@@ -18,7 +18,8 @@ class trig_sketch():
     def __matmul__(self,A):
 
         A_loc = A.A if sp.sparse.issparse(A) else A
-        return np.sqrt(self.shape[1]/self.shape[0])*sp.fft.dct(self.E[:,None]*A_loc[self.pi],norm='ortho',axis=0)[self.R]
+        EPiA = self.E[:,None]*A_loc[self.pi] if A_loc.ndim == 2 else self.E*A_loc[self.pi]
+        return np.sqrt(self.shape[1]/self.shape[0])*sp.fft.dct(EPiA,norm='ortho',axis=0)[self.R]
     
 def sparse_stack_sketch(n,k,zeta,rng):
 
