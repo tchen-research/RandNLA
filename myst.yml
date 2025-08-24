@@ -100,7 +100,7 @@ site:
   options:
     analytics_google: UA-50592837-1 
     style: style.css
-    logo: logo.png
-    logo_dark: logo-black.png
+    logo: logo.svg
+    logo_dark: logo-dark.svg
     favicon: favicon.ico
 
