@@ -47,8 +47,9 @@ For any $k,m\geq 1$, the SLQ estimator uses $(k-1)m$ matrix-vector products to $
 :::
 
 
-:::{admonition} Proof
+:::{prf:proof}
 :class: dropdown 
+:enumerated: false
 
 By the triangle inequality and since $(x+y)^2\leq 2(x^2+y^2)$, we have
 \begin{equation*}\begin{aligned}
