@@ -17,3 +17,43 @@ numbering:
 
 
 This chapter covers some of the basic computing principles that will be relevant throughout the book, including a review of numerical linear algebra concepts and a discussion on the costs of running linear algebra algorithms run on real computers.
+
+
+:::{prf:algorithm} test
+
+test
+:::
+
+:::{prf:theorem} test
+
+test
+:::
+
+:::{prf:lemma} test
+
+test
+:::
+
+
+:::{prf:proposition} test
+
+test
+:::
+
+:::{prf:proof} test
+:class: text-gradient 
+
+test
+fdas 
+:::
+
+:::{prf:definition} test 
+:class: text-gradient
+
+test
+:::
+
+```{note}
+:class: text-gradient
+I'm _very stylish_.
+```

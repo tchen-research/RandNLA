@@ -60,7 +60,7 @@ Suppose $\vec{Q}_{s}$ is a basis for the block Krylov subspace $\mathcal{K}_s(\v
 Then $\mathcal{K}_{r+1}(\vec{A},\vec{Q}_{s}) = \mathcal{K}_{s+r}(\vec{A},\vec{\Omega})$.
 :::
 
-:::{admonition} Proof
+:::{prf:proof}
 :class: dropdown
 \begin{equation*}
 \begin{aligned}

@@ -17,8 +17,9 @@ numbering:
 ---
 
 
-:::{admonition} Low-rank Approximation
+:::{prf:definition} Low-rank Approximation
 :label: task-low-rank
+:enumerated: false
 Given $\vec{A}\in\R^{n\times d}$ and $k\geq 0$, 
 \begin{equation*}
 \min_{\vec{B}\in\R^{n\times k},\vec{C}\in\R^{d\times k}} \|\vec{A}-\vec{B}\vec{C}^\T\|.

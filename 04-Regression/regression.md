@@ -19,8 +19,9 @@ numbering:
 
 Linear regression is one of the core tasks in numerical linear algebra.
 
-:::{admonition} Linear Regression
+:::{prf:definition} Linear Regression
 :label: task-regression
+:enumerated: false
 Given $\vec{A}\in\R^{n\times d}$ (full rank) and $\vec{b}\in\R^n$, solve
 \begin{equation*}
 \min_{\vec{x}\in\R^d} \|\vec{b}-\vec{A}\vec{x}\|.
