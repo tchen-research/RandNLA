@@ -16,4 +16,7 @@ numbering:
 ---
 
 
-This chapter is in progress.
+This this chapter, we discuss algorithms that rely on subsampling the input. 
+In many ways, such algorithms are conceptually different from the mixing-based methods described in previous chapters. 
+In particular, sampling based methods don't necessarily need to read the whole input and can therefore often achieve *sublinear* runtimes. 
+This makes them particularly enticing for massive problems that might otherwise be intractable. 

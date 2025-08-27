@@ -103,7 +103,12 @@ where $\smax(\vec{A})$ and $\smin(\vec{A})$ are the largest and smallest singula
 The conditioning of many core linear algebra tasks depends on the condition number.
 
 
+## Properties of the expectation
 
+
+\begin{equation*}
+\EE[\|\EE[\vec{X}] - \vec{X}\|_\F^2]
+\end{equation*}
 
 
 ## The Lanczos Method for Matrix Functions

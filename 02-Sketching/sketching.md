@@ -17,14 +17,19 @@ numbering:
 
 
 
+
 The workhorse of RandNLA is a technique called *sketching*.[^linear-sketch]
-Sketching is a way to take a large matrix and create a smaller matrix (called a sketch) that approximates key properties of the original matrix.[^sketch]
+Sketching is a way to take a large matrix and create a smaller matrix (called a sketch) that approximates key properties of the original matrix.
 Which properties are approximated depends on the specific sketching method used, and the application at hand.
+
+:::{sidebar} Like in drawing
+This is like how a [sketch](./https://en.wikipedia.org/wiki/Sketch_(drawing)) captures the essence of an original image without all the details.
+![](https://upload.wikimedia.org/wikipedia/commons/3/32/Jesus_und_Ehebrecherin.jpg)
+:::
 
 ![](./sketch_def.svg)
 
 [^linear-sketch]: In RandNLA, sketching is almost always done using a linear transform of the original matrix.
-[^sketch]: This is like how a sketch captures the essence of an original image without all the details.
 
 
 An example of sketching is illustrated in the above figure. 

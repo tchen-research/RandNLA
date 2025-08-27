@@ -9,12 +9,12 @@ Randomized Numerical Linear Algebra (RandNLA) is a subfield of [numerical linear
 Many RandNLA algorithms are remarkably simple, while providing significant speedups over traditional methods.
 
 This book aims to provide a *practical introduction* to the fundamental concepts and techniques in RandNLA. 
-We focus on intuition and conceptual understanding, and provide a mixture of theoretical analysis and  numerical experiments.
+We focus on intuition and conceptual understanding, and provide a mixture of theoretical analysis and accompanying numerical experiments.
 This book does not aim to be a comprehensive survey of state of the field, but rather a first introduction to the subject.
 
 Readers are expected to be familiar with (numerical) linear algebra.
 We assume readers have a basic understanding of [matrix factorizations](https://en.wikipedia.org/wiki/Matrix_decomposition) (e.g. QR, SVD, etc.) and concepts like [stability](https://en.wikipedia.org/wiki/Numerical_stability) and [conditioning](https://en.wikipedia.org/wiki/Condition_number).
-A basic refresher is provided [here](../01-Background/review.ipynb).
+A basic refresher is provided [here](../01-Background/review.md).
 
 ## Why this Format?
 
@@ -39,7 +39,7 @@ Larger contributions are also welcome, but please open an issue first so we can 
 
 ## Other Resources
 
-We are not aware of any other resources that provide a broad introduction to RandNLA at an introductory level with numerical examples.
+We are not aware of any other resources that provide (i) a broad introduction to RandNLA (ii) a large collection of numerical examples.
 There are, however, many existing resources on RandNLA.
 The following surveys are of particular note:
 
@@ -51,7 +51,7 @@ The following surveys are of particular note:
 
 - @woodruff_14: This is an early work on sketching, that provides a TCS-flavored overview of the field as of 2014. The focus is mostly on proving rates, and many of the key concepts in RandNLA are covered.
 
-In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many accessible posts on RandNLA topics, as well as numerical experiments and code snippets.
+In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many informative posts on RandNLA topics, as well as numerical experiments and code snippets.
 
 
 ```{bibliography}

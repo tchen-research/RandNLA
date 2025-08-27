@@ -47,6 +47,19 @@ However, {cite:p}`hutchinson_89` itself cites {cite:p}`girard_87` which addresse
 See {cite:p}`chen_22` for more discussion.
 ```
 
+ Girard-Hutchinson and
+
+```
+def girard_hutchinson(A,m):
+
+    n,_ = A.shape
+
+    X = np.random.randn(n,m)
+    trm = np.mean(np.diag(X.T@(A@X)))
+
+    return trm
+```
+
 ## Variance Bounds
 
 We can easily characterize the expectation and variance of the Girard-Hutchinson estimator when $\vec{x}$ is a Gaussian vector.

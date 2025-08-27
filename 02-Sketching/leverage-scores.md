@@ -23,19 +23,20 @@ numbering:
 ## Leverage Score Sketching
 
 
-````{prf:definition}
+:::{prf:definition}
+:label: def:leverage-score
 The $i$th leverage score of subspace $V\subset\R^n$ is defined as
-```{math}
+\begin{equation*}
 \ell_i := \| \vec{e}_i^\T \vec{V} \|^2,
-```
+\end{equation*}
 where $\vec{V}$ is any orthonormal basis for $V$.
-````
+:::
 
 
-````{prf:definition}
-:label: def:sparse-stack-sketch
+:::{prf:definition}
+:label: def:leverage-score-sketch
 We say a matrix $\vec{S}\in\R^{k\times n}$ is a *Leverage Score sampling matrix* if it has the distribution
-```{math}
+\begin{equation*}
 \vec{S} = \begin{bmatrix}
 -&\rho_1\vec{e}_{s_1}^\T&- \\
 -&\rho_2\vec{e}_{s_2}^\T&- \\
@@ -47,8 +48,8 @@ We say a matrix $\vec{S}\in\R^{k\times n}$ is a *Leverage Score sampling matrix*
 &s_{i} \sim \Call{leverage-dist}(\vec{A}),\\
 &\rho_{i} = 1/\sqrt{d/(k\ell_{s_i})}.
 \end{aligned}
-```
-````
+\end{equation*}
+:::
 Here $\Call{leverage-dist}(\vec{A})$ is the distribution on $\{1,\ldots,n\}$ that samples each index $i$ with probability proportional to the leverage score $\ell_i$ of the $i$th column of $\vec{A}$.
 
 Note that applying the Leverage score sampling matrix amounts to extracting rows, and therefore $\vec{S}$ can be applied to matrices and vectors *without reading the whole input*.
@@ -56,14 +57,15 @@ Note that applying the Leverage score sampling matrix amounts to extracting rows
 ## Subspace Embedding
 
 Leverage score sampling gives a subspace embedding:
-````{prf:theorem} 
+:::{prf:theorem} 
+:label: prf-leverage-SE
 Fix any subspace $V\subset\R^n$ of dimension $d$.
 Then, for any $0<\varepsilon<1$, the Leverage score sketching matrix $\vec{S}$ is a subspace embedding for $V$ with distortion $\varepsilon$ with probability at least $1-\delta$ for some
-```{math}
+\begin{equation*}
 k = O\left( \frac{d \log(d/\delta)}{\varepsilon^2} \right).
-```
-````
+\end{equation*}
+:::
 
 A nice proof of this can be found on Raphael's [wiki](https://randnla.github.io/leverage-subspace-embedding/).
 
-## Approximate Matrix Multiplication
+## Approximate Leverage-scores

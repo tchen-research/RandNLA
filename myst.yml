@@ -25,6 +25,7 @@ project:
     - file: intro.md
     - file: 01-Background/background.md
       children:
+        - file: 01-Background/organization.md
         - file: 01-Background/review.md
         - file: 01-Background/role-of-randomness.md
         - file: 01-Background/measuring-error.md
@@ -59,7 +60,7 @@ project:
         - file: 05-Low-Rank-Approximation/nystrom.ipynb
     - file: 06-Trace-Estimation/trace.md
       children:
-        - file: 06-Trace-Estimation/girard-hutchinson.md
+        - file: 06-Trace-Estimation/girard-hutchinson.ipynb
         - file: 06-Trace-Estimation/variance-reduction.ipynb
         - file: 06-Trace-Estimation/matrix-functions.md
           children:
@@ -67,11 +68,11 @@ project:
           - file: 06-Trace-Estimation/krylov-aware-methods.md
     - file: 07-Sampling-Based-Methods/sampling.md
       children:
-        - file: 07-Sampling-Based-Methods/approximate-matrix-multiplication.ipynb
+        - file: 07-Sampling-Based-Methods/approximate-matrix-multiplication.md
+        - file: 07-Sampling-Based-Methods/active-regression.ipynb
         - file: 07-Sampling-Based-Methods/low-rank-approximation.ipynb
         - file: 07-Sampling-Based-Methods/cholesky.ipynb
         - file: 07-Sampling-Based-Methods/cur.ipynb
-        - file: 07-Sampling-Based-Methods/active-regression.ipynb
         - file: 07-Sampling-Based-Methods/sgd-kaczmarz.ipynb
   math:
   # Note the 'single quotes'

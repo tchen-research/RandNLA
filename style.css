@@ -12,10 +12,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato';
 }
 
+@media (min-width: 768px) {
 p {
     text-align: justify;
+}    
 }
-
 /* .bg-blue-50\/80 {
     background-color: #1e356811 !important;
 } */
