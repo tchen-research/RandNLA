@@ -28,5 +28,5 @@ While not suitable for all settings, adaptive sketching offers the potential for
 The most common types of subsampling-based sketching distributions are:
 
 - [Leverage scores](./leverage-scores.md)
-- Row norm sampling
+- [Row norm sampling](./leverage-scores.md#Row-norm-sampling)
 

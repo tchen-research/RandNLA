@@ -8,15 +8,32 @@ numbering: false
 Randomized Numerical Linear Algebra (RandNLA) is a subfield of [numerical linear algebra](https://en.wikipedia.org/wiki/Numerical_linear_algebra) that focuses on the use of randomization as a tool to develop more efficient/accurate algorithms for solving linear algebra tasks.
 Many RandNLA algorithms are remarkably simple, while providing significant speedups over traditional methods.
 
-This book aims to provide a *practical introduction* to the fundamental concepts and techniques in RandNLA. 
+## This book
+
+This book aims to provide a *practical introduction* to some of the fundamental concepts and techniques in RandNLA. 
 We focus on intuition and conceptual understanding, and provide a mixture of theoretical analysis and accompanying numerical experiments.
 This book does not aim to be a comprehensive survey of state of the field, but rather a first introduction to the subject.
+
+
+:::{aside} Naming
+What do we call these methods!!?
+:::
+The majority of the book is dedicated to a collection of RandNLA algorithms for core linear algebra tasks that can often serve as *drop in replacements* for classical linear algebra methods.
+We view these methods as conceptually important and practically useful, especially for practitioners.
+These methods are characterized by the fact that their effectiveness is easily demonstrated in simple numerical experiments. 
+We aim to provide such examples.
+
+
+We also provide an introduction to [sampling-based methods](./07-Sampling-Based-Methods/). 
+In many cases, these algorithms provide the best theoretical runtimes or may even be the only tractable algorithms.
+However, in large, these methods require some consideration about their appropriateness for a given computational environment.
+
 
 Readers are expected to be familiar with (numerical) linear algebra.
 We assume readers have a basic understanding of [matrix factorizations](https://en.wikipedia.org/wiki/Matrix_decomposition) (e.g. QR, SVD, etc.) and concepts like [stability](https://en.wikipedia.org/wiki/Numerical_stability) and [conditioning](https://en.wikipedia.org/wiki/Condition_number).
 A basic refresher is provided [here](../01-Background/review.md).
 
-## Why this Format?
+### Why this Format?
 
 Academic publishing is stuck using design choices that were made decades or centuries ago and are no longer relevant to the way information is created/consumed today. 
 In my opinion:
@@ -31,7 +48,7 @@ Without a requirement for an "offline" version, we can also use interactive cont
 Over the past few years, flexible technical document preparation formats (e.g. [MyST Markdown](https://mystmd.org) used in this document) are becoming more powerful, making a project like this viable.
 This is partly my attempt to experiment with these new formats.
 
-## Contributing
+### Contributing
 
 We welcome contributions and suggestions for improvement.
 In particular readers can fix typos, update or add references/experiments/information, and suggest changes on Github.
@@ -51,7 +68,7 @@ The following surveys are of particular note:
 
 - @woodruff_14: This is an early work on sketching, that provides a TCS-flavored overview of the field as of 2014. The focus is mostly on proving rates, and many of the key concepts in RandNLA are covered.
 
-In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many informative posts on RandNLA topics, as well as numerical experiments and code snippets.
+In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many informative posts on RandNLA topics as well as numerical experiments and code snippets.
 
 
 ```{bibliography}
