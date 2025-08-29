@@ -37,4 +37,6 @@ Some settings where $\vec{A}$ is most naturally accessed implicitly include:
 
 ## Further Reading
 
-- @chen_24
+- @girard_87, @hutchinson_89: First papers on stochastic trace estimation
+- @epperly_23: Nice derivation of the variance of stochastic trace estimators.
+- @chen_24: Book on Lanczos methods for matrix functions, which includes content on spectrum and spectral sum approximation. See references within for connection to physics.

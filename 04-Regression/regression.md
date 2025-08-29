@@ -50,7 +50,6 @@ While iterative methods are able to take advantage of sparsity in $\vec{A}$, the
 
 ## Further Reading
 
-- @clarkson_woodruff_13:
-- @chenakkod_derezinski_dong_rudelson_24
-- @epperly_24:
-- @epperly_meier_nakatsukasa_25:
+- @sarlos_06, @rokhlin_tygert_08: Early works in RandNLA that respectively introduce [sketch-and-solve](./sketch-and-solve.ipynb) and [sketch-and-precondition](./sketch-and-precondition.ipynb).
+- @clarkson_woodruff_13, @chenakkod_derezinski_dong_rudelson_24,@chenakkod_derezinski_dong_25: Line of work in TCS on sparse sketches that give algorithms for regression that run in time close to the optimal $O(\nnz(\vec{A}) + d^{\omega})$. 
+- @epperly_24, @epperly_meier_nakatsukasa_25: Line of work on the stability fo sketch-and-precondition type algorithms

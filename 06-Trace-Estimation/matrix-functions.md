@@ -1,5 +1,5 @@
 ---
-title: Matrix function trace approximation and spectral densities
+title: Matrix function trace approximation
 description: Computing traces of matrix functions and approximating spectral densities using randomized methods
 keywords: [matrix functions, spectral sums, spectral density, eigenvalues, trace approximation, Dirac delta, probability measures]
 numbering:
@@ -36,32 +36,32 @@ The  *spectral sum* of $\vec{A}$ and $f$ is defined as
 
 A natural approach is to combine the implicit trace estimation algorithms discussed earlier in this chapter with black-box methods for approximating $\vec{x}\mapsto \vec{x}^\T f(\vec{A})\vec{x}$ or $\vec{x}\mapsto f(\vec{A})\vec{x}$.
 
+## Lanczos for matrix-functions
 
 
-The task of matrix-function trace approximation is closely related to the task of estimating the spectrum of $\vec{A}$.
+The output of the Lanczos method can then be used to approximate $f(\vec{A})\vec{x}$ and $\vec{x}^\T f(\vec{A})\vec{x}$.
+This requires $k-1$ matrix-vector products with $\vec{A}$.
 
-:::{prf:definition}
-
-The *spectral density* of $\vec{A}$ is the probability measure 
-\begin{equation*}
-\varphi(x) := \frac{1}{n} \sum_{i=1}^{n} \delta(x - \lambda_i),
-\end{equation*}
-where $\delta(x)$ is the Dirac delta at zero$.
-
+:::{prf:definition} Lanczos Method for matrix functions
+:label: def:lanczos-method
+The Lanczos approximations to $f(\vec{A})\vec{x}$ and $\vec{x}^\T f(\vec{A})\vec{x}$ are respectively given by
+\begin{equation*}\begin{aligned}
+\Call{Lan-FA}_k(f;\vec{A},\vec{x})&:= \|\vec{x}\|\vec{Q} f(\vec{T})\vec{e}_1 \\
+\Call{Lan-QF}_k(f;\vec{A},\vec{x})&:=  \|\vec{x}\|^2\vec{e}_1^\T f(\vec{T})\vec{e}_1.
+\end{aligned}\end{equation*}
 :::
 
-We are interested approximating the spectral density of $\vec{A}$, as well a 
+It is well-known that the accuracy of these approximations is related to how well $f(x)$ can be approximation by polynomials on the interval $[\lambda_n,\lambda_1]$.
 
-Observe that 
-```{math}
-\tr(f(\vec{A})) = n\int_{-\infty}^{\infty} f(x) \varphi(x) \d{x},
-```
-Likewise,
-```{math}
-\Phi(\alpha) := n\int_{-\infty}^{\alpha} \varphi(x) \d{x} = \tr(f_\alpha(\vec{A})),\quad f_\alpha(x) = \begin{cases}
-1 & \text{if } x \leq \alpha,\\
-0 & \text{otherwise.}
-\end{cases}
-```
-Hence approximating the spectral density and approximating spectral sums are equivalent.
+:::{prf:theorem} 
+:label: thm:lanczos_FA_polynomial
+\begin{equation*}
+\begin{aligned}
+\| f(\vec{A})\vec{x} - \Call{Lan-FA}_k(f;\vec{A},\vec{x}) \| &\leq 2 \|\vec{x}\| \min_{\deg(p)<k} \left(\max_{x\in[\lambda_n,\lambda_1]} | f(x) - p(x) |\right) \\
+| \vec{x}^\T f(\vec{A})\vec{x} - \Call{Lan-QF}_k(f;\vec{A},\vec{x}) | &\leq 2 \|\vec{x}\|^2 \min_{\deg(p)<2k-1} \left(\max_{x\in[\lambda_n,\lambda_1]} | f(x) - p(x) |\right).
+\end{aligned}
+\end{equation*}
+:::
+
+In particular, note that when $f(x)$ is a low-degree polynomial, the approximations are exact.
 

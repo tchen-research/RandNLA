@@ -26,19 +26,15 @@ Given $\vec{A}\in\R^{n\times d}$ (full rank), find a matrix $\vec{Q}\in\R^{n\tim
 \end{equation*}
 :::
 
-The computational cost of a QR factorization is $O(nd^2)$ operations.
 Classical algorithms for computing the QR factorization, such as the LAPACK methods underlying [`np.linalg.qr`](https://numpy.org/doc/stable/reference/generated/numpy.linalg.qr.html), are typically based on Householder reflections or Givens rotations.
-These algorithms are numerically stable, but inherently sequential, leading to relatively low flop-rates on modern hardware.
+These algorithms are numerically stable and run in $O(nd^2)$ operations, but inherently sequential, leading to relatively low [flop-rates](../01-Background/cost-of-numerical-linear-algebra.ipynb#Flops-are-not-necessarily-representative-of-cost) on modern hardware.
 The algorithms presented in this chapter address this shortcoming.
 
 ## Other factorizations
 
 Many of the ideas we discuss in this chapter can be used to compute a singular value decomposition (SVD). 
 Alternately, on obtain an SVD decomposition of $\vec{A}$ efficiently from a QR factorization.
-Simply compute an SVD $\vec{R} = \vec{U}' \vec{\Sigma} \vec{V}^\T$ and then set $\vec{U} = \vec{Q} \vec{U}'$ to obtain an SVD
-\begin{equation*}
-\vec{A} = \vec{U} \vec{\Sigma} \vec{V}^\T.
-\end{equation*}
+Simply compute an SVD $\vec{R} = \vec{U}' \vec{\Sigma} \vec{V}^\T$ and then set $\vec{U} = \vec{Q} \vec{U}'$ to obtain an SVD $\vec{A} = \vec{U} \vec{\Sigma} \vec{V}^\T$.
 
 
 

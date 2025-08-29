@@ -19,6 +19,8 @@ numbering:
     enumerator: 6.%s
     continue: true
 ---
+
+
 :::{aside} Why "quadrature"?
 The Lanczos method for quadratic forms can be viewed as a Gaussian quadrature approximation to a certain integral. 
 This connection and the full details of the algorithm are explained in detail in {cite:p}`chen_24,chen_trogdon_ubaru_25`.

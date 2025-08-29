@@ -35,6 +35,7 @@ where $\vec{U}_k$ contains the first $k$ columns of $\vec{U}$, $\vec{\Sigma}_k$ 
 
 ### Further reading
 
-- @halko_martinsson_tropp_11: 
-- @tropp_webber_23: 
-- @meyer_musco_musco_24, @chen_epperly_meyer_musco_rao_25: 
+- @halko_martinsson_tropp_11: Early survey on the [Randomized SVD](./randomized-svd.ipynb) and [Randomized Subspace Iteration](./subspace-iteration.ipynb) that that popularized RandNLA for low-rank approximation.
+- @musco_musco_15: First analysis of [Randomized Block Krylov Iteration](./block-krylov.ipynb)
+- @tropp_webber_23: Recent explicit analysis of a number of low-rank approximation algorithms,
+- @meyer_musco_musco_24, @chen_epperly_meyer_musco_rao_25: Line of work in TCS which study [Randomized Block Krylov Iteration](./block-krylov.ipynb) in the "small-block" setting (where the block size is smaller than the target rank).

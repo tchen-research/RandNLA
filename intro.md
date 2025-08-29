@@ -8,20 +8,20 @@ numbering: false
 Randomized Numerical Linear Algebra (RandNLA) is a subfield of [numerical linear algebra](https://en.wikipedia.org/wiki/Numerical_linear_algebra) that focuses on the use of randomization as a tool to develop more efficient/accurate algorithms for solving linear algebra tasks.
 Many RandNLA algorithms are remarkably simple, while providing significant speedups over traditional methods.
 
-## This book
+## This "book"
 
-This book aims to provide a *practical introduction* to some of the fundamental concepts and techniques in RandNLA. 
+This book aims to provide a *practical introduction* to some of the fundamental concepts and techniques in RandNLA.
 We focus on intuition and conceptual understanding, and provide a mixture of theoretical analysis and accompanying numerical experiments.
-This book does not aim to be a comprehensive survey of state of the field, but rather a first introduction to the subject.
+Jupyter notebooks with the code examples can be downloaded from [Github](https://github.com/tchen-research/RandNLA).
+
+The intended audience is students and researchers new to the topic.
+Readers are expected to be familiar with (numerical) linear algebra and probability, but a basic refresher is provided [here](../01-Background/review.md).
+The content would be appropriate for a short module on RandNLA in a numerical linear algebra course, or even as a weekend read for PhD students with a strong background in numerical linear algebra.
 
 
-:::{aside} Naming
-What do we call these methods!!?
-:::
 The majority of the book is dedicated to a collection of RandNLA algorithms for core linear algebra tasks that can often serve as *drop in replacements* for classical linear algebra methods.
 We view these methods as conceptually important and practically useful, especially for practitioners.
 These methods are characterized by the fact that their effectiveness is easily demonstrated in simple numerical experiments. 
-We aim to provide such examples.
 
 
 We also provide an introduction to [sampling-based methods](./07-Sampling-Based-Methods/). 
@@ -29,11 +29,8 @@ In many cases, these algorithms provide the best theoretical runtimes or may eve
 However, in large, these methods require some consideration about their appropriateness for a given computational environment.
 
 
-Readers are expected to be familiar with (numerical) linear algebra.
-We assume readers have a basic understanding of [matrix factorizations](https://en.wikipedia.org/wiki/Matrix_decomposition) (e.g. QR, SVD, etc.) and concepts like [stability](https://en.wikipedia.org/wiki/Numerical_stability) and [conditioning](https://en.wikipedia.org/wiki/Condition_number).
-A basic refresher is provided [here](../01-Background/review.md).
 
-### Why this Format?
+### Why this format?
 
 Academic publishing is stuck using design choices that were made decades or centuries ago and are no longer relevant to the way information is created/consumed today. 
 In my opinion:
@@ -51,7 +48,7 @@ This is partly my attempt to experiment with these new formats.
 ### Contributing
 
 We welcome contributions and suggestions for improvement.
-In particular readers can fix typos, update or add references/experiments/information, and suggest changes on Github.
+In particular readers can fix typos, update or add references/experiments/information, and suggest changes on [Github](https://github.com/tchen-research/RandNLA).
 Larger contributions are also welcome, but please open an issue first so we can discuss how the content fits into the narrative before investing too much time.
 
 ## Other Resources
