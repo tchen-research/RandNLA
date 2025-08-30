@@ -22,9 +22,9 @@ numbering:
 
 Let $\vec{A}\in\R^{n\times n}$ be a symmetric matrix with eigendecomposition $\vec{A} = \sum_{i=1}^{n} \lambda_i \vec{u}_i \vec{u}_i^\T$, where $\lambda_i$ are the eigenvalues and $\vec{u}_i$ are the orthonormal eigenvectors of $\vec{A}$.
 Recall the matrix function 
-\begin{equation*}
+\begin{equation}
 f(\vec{A}) := \sum_{i=1}^{n} f(\lambda_i) \vec{u}_i \vec{u}_i^\T.
-\end{equation*}
+\end{equation}
 
 :::{prf:definition}
 

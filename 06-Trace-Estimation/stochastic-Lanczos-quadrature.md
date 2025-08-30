@@ -23,24 +23,27 @@ numbering:
 
 :::{aside} Why "quadrature"?
 The Lanczos method for quadratic forms can be viewed as a Gaussian quadrature approximation to a certain integral. 
-This connection and the full details of the algorithm are explained in detail in {cite:p}`chen_24,chen_trogdon_ubaru_25`.
+This connection is discussed in the next [section](./stochastic-Lanczos-quadrature-spectrum.md#Connection-to-quadrature)
+and in detail in {cite:p}`chen_24,chen_trogdon_ubaru_25`.
 :::
 Recall that using $k-1$ matrix-vector products with $\vec{A}$, the [Lanczos method for quadratic forms](def:lanczos-method) produces an approximation $\Call{Lan-QF}_k(f;\vec{A},\vec{x})$ that is an approximation to $\vec{x}^\T f(\vec{A})\vec{x}$.
 Stochastic Lanczos Quadrature (SLQ) simply combines this method with the [Girard-Hutchinson trace estimator](def:girard_hutchinson_estimator).
 
 
-````{prf:definition} Stochastic Lanczos Quadrature
+:::{prf:definition}
+:label: slq-trace
 The *Stochastic Lanczos Quadrature* (SLQ) estimator for the spectral sum $\tr(f(\vec{A}))$ is given by
 \begin{equation*}
-\Call{SLQ}_{k,m}(f;\vec{A}) := \frac{1}{m} \sum_{i=1}^{m} \Call{Lan-QF}_k(f;\vec{A},\vec{x}_i),
+\Call{SLQ}_{k,m}(f;\vec{A}) := \frac{1}{m} \sum_{i=1}^{m} \Call{Lan-QF}_k(f;\vec{A},\vec{x}_i).
 \end{equation*}
-where $\vec{x}_i$ are independent standard Gaussian vectors.
-````
+:::
 
 A simple application of the triangle inequality gives a bound on expected squared error of the SLQ estimator.
 
 :::{prf:theorem} 
+:label: slq-func
 
+Suppose the $\vec{x}_i$ are independent standard Gaussian vectors. 
 For any $k,m\geq 1$, the SLQ estimator uses $(k-1)m$ matrix-vector products to $\vec{A}$ and satisfies
 \begin{equation*}
 \EE\left[ | \tr(f(\vec{A})) - \Call{SLQ}_{k,m}(f;\vec{A}) |^2 \right]
