@@ -52,7 +52,7 @@ Observe that
 ```
 Likewise,
 ```{math}
-\Phi(z) := \int_{-\infty}^{z} \varphi(x) \d{x} = \tr(f_z(\vec{A})),\quad f_z(x) = \begin{cases}
+\Phi(z) := \int_{-\infty}^{z} \varphi(x;\vec{A}) \d{x} = \tr(f_z(\vec{A})),\quad f_z(x) = \begin{cases}
 n^{-1} & \text{if } x \leq z,\\
 0 & \text{otherwise.}
 \end{cases}

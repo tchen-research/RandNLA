@@ -34,7 +34,7 @@ Fix a vector $\vec{x}$ and consider the weighted spectral density
 ```
 and observe that 
 ```{math}
-\vec{x}^\T f(\vec{A})\vec{x} = n \int_{-\infty}^{\infty} f(x) \psi(x) \d{x}.
+\vec{x}^\T f(\vec{A})\vec{x} = n \int_{-\infty}^{\infty} f(x) \psi(x;\vec{A},\vec{x}) \d{x}.
 ```
 Note that when $\vec{x}$ is drawn from a suitable distribution ($\EE[\vec{x}\vec{x}^\T] = \vec{I}$), then $\EE[\psi(x)] = \varphi(x)$.
 
