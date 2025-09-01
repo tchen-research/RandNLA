@@ -54,10 +54,41 @@ Then
 
 
 
-
-
-
+:::{prf:theorem} Law of Total Expectation
+Let $X$ and $Y$ be random variables. Then
 \begin{equation*}
-\EE[\|\EE[\vec{X}] - \vec{X}\|_\F^2]
+\EE[X] = \EE[\EE[X|Y]].
 \end{equation*}
+:::
+
+
+:::{prf:theorem} Jensen's Inequality
+Let $f$ be a convex function and $X$ be a random variable. Then
+\begin{equation*}
+f(\EE[X]) \leq \EE[f(X)].
+\end{equation*}
+:::
+
+This implies that a bound on the expected squared error also gives a bound on the expected error.
+
+### Matrix equations
+
+Familiar facts about scalars also extend to matrices.
+
+:::{prf:theorem} Bias-Variance Decomposition
+:label: thm-bias-variance
+Let $\vec{X}$ be a random matrix and $\vec{A}$ be a deterministic matrix. Then
+\begin{equation*}
+\EE[\|\vec{A} - \vec{X}\|_\F^2] = \|\vec{A} - \EE[\vec{X}]\|_\F^2 + \EE[\|\vec{X} - \EE[\vec{X}]\|_\F^2].
+\end{equation*}
+:::
+
+:::{prf:theorem} Variance of iid sum
+:label: thm-iid-sum
+Let $\vec{X}_1, \ldots, \vec{X}_m$ be iid copies of $\vec{X}$. Then
+\begin{equation*}
+\VV\left[\left\|\frac{1}{m}\sum_{i=1}^m \vec{X}_i\right\|_\F^2\right] = \frac{1}{m}\VV[\|\vec{X}\|_\F^2].
+\end{equation*}
+:::
+
 

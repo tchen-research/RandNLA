@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6in"
+   height="3in"
+   viewBox="0 0 152.4 76.2"
+   version="1.1"
+   id="svg185"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="sketch_def-dark.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview187"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77593295"
+     inkscape:cx="286.75158"
+     inkscape:cy="132.74343"
+     inkscape:window-width="1864"
+     inkscape:window-height="1000"
+     inkscape:window-x="56"
+     inkscape:window-y="41"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs182" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect358"
+       width="20"
+       height="60.000004"
+       x="73.929878"
+       y="5.5555491" />
+    <rect
+       style="fill:none;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect358-6"
+       width="22"
+       height="60.000004"
+       x="5.6407971"
+       y="-71.614433"
+       transform="rotate(90)" />
+    <rect
+       style="fill:none;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect358-3"
+       width="20"
+       height="22"
+       x="113.22866"
+       y="6.152277" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.8167px;line-height:1.1;font-family:'Helvetica Condensed';-inkscape-font-specification:'Helvetica Condensed, ';letter-spacing:0px;word-spacing:0.0079375px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:3;stroke-opacity:1;paint-order:fill markers stroke"
+       x="111.85059"
+       y="22.669788"
+       id="text1140-7"><tspan
+         sodipodi:role="line"
+         id="tspan1138-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Mono';-inkscape-font-specification:'Latin Modern Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="111.85059"
+         y="22.669788" /></text>
+    <g
+       stroke="#000000"
+       fill="#000000"
+       stroke-width="0"
+       transform="matrix(0.00908526,0,0,-0.00908526,116.80347,19.407854)"
+       id="g424"
+       style="fill:#ffffff;fill-opacity:1">
+      <g
+         data-mml-node="math"
+         data-latex="\mathbf{SA}"
+         data-semantic-structure="0"
+         id="g422"
+         style="stroke-width:0;fill:#ffffff;fill-opacity:1">
+        <g
+           data-mml-node="TeXAtom"
+           data-mjx-texclass="ORD"
+           data-latex="\mathbf{SA}"
+           id="g420"
+           style="stroke-width:0;fill:#ffffff;fill-opacity:1">
+          <g
+             data-mml-node="mi"
+             data-latex="SA"
+             data-semantic-type="identifier"
+             data-semantic-role="unknown"
+             data-semantic-font="bold"
+             data-semantic-annotation="nemeth:number;depth:1"
+             data-semantic-id="0"
+             data-semantic-attributes="latex:\mathbf{SA};texclass:ORD"
+             aria-level="0"
+             data-speech-node="true"
+             id="g418"
+             style="stroke-width:0;fill:#ffffff;fill-opacity:1">
+            <path
+               id="use414"
+               d="m 574,203 c 0,111 -81,192 -172,211 l -145,31 c -40,9 -96,43 -96,104 0,43 28,105 128,105 80,0 181,-34 204,-170 4,-24 4,-26 25,-26 24,0 24,5 24,28 v 183 c 0,19 0,28 -18,28 -8,0 -9,-1 -20,-11 L 459,642 C 401,688 336,697 288,697 136,697 64,601 64,496 c 0,-65 33,-111 54,-133 49,-49 83,-56 192,-80 88,-19 105,-22 127,-43 15,-15 40,-41 40,-87 0,-48 -26,-117 -130,-117 -76,0 -228,20 -236,169 -1,18 -1,23 -23,23 -24,0 -24,-6 -24,-29 V 17 c 0,-19 0,-28 18,-28 9,0 11,2 19,9 l 46,46 c 66,-49 159,-55 200,-55 165,0 227,113 227,214 z"
+               style="stroke-width:0;fill:#ffffff;fill-opacity:1" />
+            <path
+               id="use416"
+               d="m 1466,0 v 47 h -97 l -256,625 c -11,26 -23,26 -40,26 -28,0 -32,-8 -39,-26 L 786,70 C 780,55 777,47 701,47 H 680 V 0 l 117,3 c 39,0 95,0 132,-3 v 47 c 0,0 -89,0 -89,13 l 4,12 50,121 h 268 l 60,-146 h -95 V 0 c 38,3 133,3 176,3 40,0 128,0 163,-3 M 1142,240 H 914 l 114,278 z"
+               style="stroke-width:0;fill:#ffffff;fill-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <path
+       id="use414-6"
+       d="m 43.16395,17.590815 c 0,-1.008464 -0.735906,-1.74437 -1.562665,-1.91699 l -1.317363,-0.281643 c -0.36341,-0.08177 -0.872184,-0.390666 -0.872184,-0.944867 0,-0.390666 0.254387,-0.953952 1.162913,-0.953952 0.72682,0 1.644432,0.308899 1.853393,1.544494 0.03634,0.218046 0.03634,0.236217 0.227131,0.236217 0.218046,0 0.218046,-0.04543 0.218046,-0.254387 v -1.662603 c 0,-0.17262 0,-0.254387 -0.163534,-0.254387 -0.07268,0 -0.08177,0.0091 -0.181705,0.09994 l -0.408837,0.399751 c -0.526945,-0.417922 -1.117487,-0.499689 -1.553579,-0.499689 -1.38096,0 -2.035099,0.872185 -2.035099,1.826137 0,0.590542 0.299814,1.008464 0.490604,1.20834 0.445178,0.445177 0.754077,0.508774 1.74437,0.72682 0.799503,0.17262 0.953952,0.199876 1.153828,0.390667 0.136279,0.136278 0.36341,0.372495 0.36341,0.790417 0,0.436093 -0.236216,1.062976 -1.181083,1.062976 -0.69048,0 -2.071439,-0.181706 -2.144121,-1.535409 -0.0091,-0.163535 -0.0091,-0.208961 -0.208961,-0.208961 -0.218047,0 -0.218047,0.05451 -0.218047,0.263472 v 1.653518 c 0,0.17262 0,0.254387 0.163535,0.254387 0.08177,0 0.09994,-0.01817 0.17262,-0.08177 l 0.417922,-0.417922 c 0.599627,0.445177 1.444556,0.499689 1.817052,0.499689 1.499068,0 2.062354,-1.026635 2.062354,-1.944245 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0;fill-opacity:1" />
+    <path
+       id="use416-2"
+       d="m 87.194913,19.435123 v -0.427007 h -0.88127 l -2.325827,-5.678288 c -0.09994,-0.236216 -0.208961,-0.236216 -0.36341,-0.236216 -0.254387,0 -0.290728,0.07268 -0.354325,0.236216 l -2.253145,5.469327 c -0.05451,0.136279 -0.08177,0.208961 -0.772247,0.208961 h -0.19079 v 0.427007 l 1.062975,-0.02726 c 0.354325,0 0.8631,0 1.199255,0.02726 v -0.427007 c 0,0 -0.808589,0 -0.808589,-0.118109 l 0.03634,-0.109023 0.454263,-1.099316 h 2.43485 l 0.545116,1.326448 h -0.8631 v 0.427007 c 0.34524,-0.02726 1.20834,-0.02726 1.599006,-0.02726 0.36341,0 1.162913,0 1.480897,0.02726 m -2.943624,-2.180462 h -2.071439 l 1.035719,-2.525703 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0;fill-opacity:1" />
+    <g
+       data-mjx-linebox="true"
+       data-mjx-lineno="1"
+       transform="matrix(0.00478873,0,0,-0.00478873,33.999826,73.143905)"
+       id="g3231"
+       style="fill:#fefefe;stroke:#000000;stroke-width:0;fill-opacity:1">
+      <g
+         data-mml-node="mrow"
+         data-semantic-added="true"
+         data-semantic-type="infixop"
+         data-semantic-role="implicit"
+         data-semantic-annotation="clearspeak:unit;depth:2"
+         data-semantic-id="14"
+         data-semantic-children="0,2"
+         data-semantic-content="13"
+         data-semantic-parent="17"
+         data-semantic-owns="0 13 2"
+         aria-level="1"
+         data-speech-node="true"
+         id="g3217"
+         style="fill:#fefefe;fill-opacity:1">
+        <g
+           data-mml-node="mspace"
+           data-latex="\\"
+           id="g3207"
+           style="fill:#fefefe;fill-opacity:1" />
+        <g
+           data-mml-node="mo"
+           data-semantic-type="operator"
+           data-semantic-role="multiplication"
+           data-semantic-annotation="depth:3"
+           data-semantic-id="13"
+           data-semantic-parent="14"
+           data-semantic-added="true"
+           data-semantic-operator="infixop,⁢"
+           aria-level="2"
+           data-speech-node="true"
+           id="g3211"
+           style="fill:#fefefe;fill-opacity:1">
+          <path
+             id="use3209"
+             d=""
+             style="fill:#fefefe;fill-opacity:1" />
+        </g>
+        <g
+           data-mml-node="mi"
+           data-latex="k"
+           data-semantic-type="identifier"
+           data-semantic-role="latinletter"
+           data-semantic-font="italic"
+           data-semantic-annotation="clearspeak:simple;depth:3"
+           data-semantic-id="2"
+           data-semantic-parent="14"
+           data-semantic-attributes="latex:k"
+           aria-level="2"
+           data-speech-node="true"
+           id="g3215"
+           style="fill:#fefefe;fill-opacity:1">
+          <path
+             id="use3213"
+             d="m 409,353 c 0,-26 14,-39 41,-39 35,0 58,31 58,65 0,39 -32,66 -71,66 -45,0 -93,-30 -146,-89 -41,-45 -74,-74 -101,-87 l 101,410 c -2,9 -4,15 -17,15 -32,0 -108,-9 -120,-10 -15,-2 -22,-9 -22,-24 0,-10 9,-15 27,-15 19,0 45,1 45,-13 L 59,43 C 56,32 55,25 55,21 55,0 66,-11 87,-11 c 17,0 30,8 37,23 5,9 23,80 55,214 52,-5 107,-30 107,-80 0,-15 -7,-45 -7,-55 0,-57 37,-102 94,-102 58,0 97,52 117,156 0,9 -5,14 -15,14 -9,0 -15,-7 -18,-21 C 435,59 408,19 375,19 c -18,0 -27,14 -27,42 0,16 12,70 12,86 0,57 -46,92 -139,106 23,16 49,39 77,69 28,30 48,49 61,60 27,22 53,33 76,33 10,0 18,-2 24,-6 -27,-5 -50,-30 -50,-56 z"
+             style="fill:#fefefe;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         data-mml-node="mo"
+         data-latex="\times"
+         data-semantic-type="operator"
+         data-semantic-role="multiplication"
+         data-semantic-annotation="depth:2"
+         data-semantic-id="3"
+         data-semantic-parent="17"
+         data-semantic-attributes="latex:\times"
+         data-semantic-operator="infixop,×"
+         aria-level="1"
+         data-speech-node="true"
+         transform="translate(743.2)"
+         id="g3221"
+         style="fill:#fefefe;fill-opacity:1">
+        <path
+           id="use3219"
+           d="m 630,32 c 0,7 -2,12 -7,17 L 422,250 623,451 c 5,5 7,10 7,17 0,13 -10,23 -23,23 -7,0 -12,-2 -17,-7 L 389,283 188,484 c -5,5 -10,7 -17,7 -13,0 -23,-10 -23,-23 0,-7 2,-12 7,-17 L 356,250 155,49 c -5,-5 -7,-10 -7,-17 0,-13 10,-23 23,-23 7,0 12,2 17,7 L 389,217 590,16 c 5,-5 10,-7 17,-7 13,0 23,10 23,23 z"
+           style="fill:#fefefe;fill-opacity:1" />
+      </g>
+      <g
+         data-mml-node="mrow"
+         data-semantic-added="true"
+         data-semantic-type="infixop"
+         data-semantic-role="implicit"
+         data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:2"
+         data-semantic-id="16"
+         data-semantic-children="4,6"
+         data-semantic-content="15"
+         data-semantic-parent="17"
+         data-semantic-owns="4 15 6"
+         aria-level="1"
+         data-speech-node="true"
+         transform="translate(1743.4)"
+         id="g3229"
+         style="fill:#fefefe;fill-opacity:1">
+        <g
+           data-mml-node="mi"
+           data-latex="n"
+           data-semantic-type="identifier"
+           data-semantic-role="latinletter"
+           data-semantic-font="italic"
+           data-semantic-annotation="clearspeak:simple;depth:3"
+           data-semantic-id="4"
+           data-semantic-parent="16"
+           data-semantic-attributes="latex:n"
+           aria-level="2"
+           data-speech-node="true"
+           id="g3225"
+           style="fill:#fefefe;fill-opacity:1">
+          <path
+             id="use3223"
+             d="M 537,137 C 514,58 481,18 440,18 c -13,0 -20,10 -20,29 0,14 6,37 18,68 40,109 60,181 60,218 0,70 -47,109 -117,109 -59,0 -110,-26 -151,-79 -8,44 -43,79 -94,79 -56,0 -78,-52 -92,-97 -10,-32 -15,-51 -15,-58 0,-9 5,-14 16,-14 5,0 8,1 11,3 5,9 8,16 9,23 18,76 41,114 68,114 18,0 27,-14 27,-42 0,-13 -5,-40 -16,-81 L 87,63 C 84,50 78,24 78,19 c 0,-20 11,-30 33,-30 19,0 33,10 40,30 2,5 8,30 19,73 l 21,89 30,114 c 11,23 28,46 49,70 29,32 65,48 108,48 33,0 49,-22 49,-65 0,-38 -21,-114 -64,-228 -7,-18 -10,-33 -10,-46 0,-49 37,-85 85,-85 44,0 79,25 104,75 19,40 29,67 29,80 0,9 -5,14 -16,14 -3,0 -18,-9 -18,-21 z"
+             style="fill:#fefefe;fill-opacity:1" />
+        </g>
+        <g
+           data-mml-node="mspace"
+           data-latex="\\"
+           data-semantic-type="operator"
+           data-semantic-role="space"
+           data-semantic-annotation="depth:3"
+           data-semantic-id="15"
+           data-semantic-parent="16"
+           data-semantic-operator="infixop,⁢"
+           aria-level="2"
+           data-speech-node="true"
+           transform="translate(600)"
+           id="g3227"
+           style="fill:#fefefe;fill-opacity:1" />
+      </g>
+    </g>
+    <g
+       data-mjx-linebox="true"
+       data-mjx-lineno="2"
+       transform="matrix(0.00478873,0,0,-0.00478873,78.33598,73.143904)"
+       id="g3253"
+       style="fill:#fefefe;stroke:#000000;stroke-width:0;fill-opacity:1">
+      <g
+         data-mml-node="mrow"
+         data-semantic-added="true"
+         data-semantic-type="infixop"
+         data-semantic-role="implicit"
+         data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:2"
+         data-semantic-id="16"
+         data-semantic-children="4,6"
+         data-semantic-content="15"
+         data-semantic-parent="17"
+         data-semantic-owns="4 15 6"
+         aria-level="1"
+         data-speech-node="true"
+         id="g3239"
+         style="fill:#fefefe;fill-opacity:1">
+        <g
+           data-mml-node="mspace"
+           data-latex="\\"
+           data-semantic-type="operator"
+           data-semantic-role="space"
+           data-semantic-annotation="depth:3"
+           data-semantic-id="15"
+           data-semantic-parent="16"
+           data-semantic-operator="infixop,⁢"
+           aria-level="2"
+           data-speech-node="true"
+           id="g3233"
+           style="fill:#fefefe;fill-opacity:1" />
+        <g
+           data-mml-node="mi"
+           data-latex="n"
+           data-semantic-type="identifier"
+           data-semantic-role="latinletter"
+           data-semantic-font="italic"
+           data-semantic-annotation="clearspeak:simple;depth:3"
+           data-semantic-id="6"
+           data-semantic-parent="16"
+           data-semantic-attributes="latex:n"
+           aria-level="2"
+           data-speech-node="true"
+           id="g3237"
+           style="fill:#fefefe;fill-opacity:1">
+          <path
+             id="use3235"
+             d="M 537,137 C 514,58 481,18 440,18 c -13,0 -20,10 -20,29 0,14 6,37 18,68 40,109 60,181 60,218 0,70 -47,109 -117,109 -59,0 -110,-26 -151,-79 -8,44 -43,79 -94,79 -56,0 -78,-52 -92,-97 -10,-32 -15,-51 -15,-58 0,-9 5,-14 16,-14 5,0 8,1 11,3 5,9 8,16 9,23 18,76 41,114 68,114 18,0 27,-14 27,-42 0,-13 -5,-40 -16,-81 L 87,63 C 84,50 78,24 78,19 c 0,-20 11,-30 33,-30 19,0 33,10 40,30 2,5 8,30 19,73 l 21,89 30,114 c 11,23 28,46 49,70 29,32 65,48 108,48 33,0 49,-22 49,-65 0,-38 -21,-114 -64,-228 -7,-18 -10,-33 -10,-46 0,-49 37,-85 85,-85 44,0 79,25 104,75 19,40 29,67 29,80 0,9 -5,14 -16,14 -3,0 -18,-9 -18,-21 z"
+             style="fill:#fefefe;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         data-mml-node="mo"
+         data-latex="\times"
+         data-semantic-type="operator"
+         data-semantic-role="multiplication"
+         data-semantic-annotation="depth:2"
+         data-semantic-id="7"
+         data-semantic-parent="17"
+         data-semantic-attributes="latex:\times"
+         data-semantic-operator="infixop,×"
+         aria-level="1"
+         data-speech-node="true"
+         transform="translate(822.2)"
+         id="g3243"
+         style="fill:#fefefe;fill-opacity:1">
+        <path
+           id="use3241"
+           d="m 630,32 c 0,7 -2,12 -7,17 L 422,250 623,451 c 5,5 7,10 7,17 0,13 -10,23 -23,23 -7,0 -12,-2 -17,-7 L 389,283 188,484 c -5,5 -10,7 -17,7 -13,0 -23,-10 -23,-23 0,-7 2,-12 7,-17 L 356,250 155,49 c -5,-5 -7,-10 -7,-17 0,-13 10,-23 23,-23 7,0 12,2 17,7 L 389,217 590,16 c 5,-5 10,-7 17,-7 13,0 23,10 23,23 z"
+           style="fill:#fefefe;fill-opacity:1" />
+      </g>
+      <g
+         data-mml-node="mrow"
+         data-semantic-added="true"
+         data-semantic-type="infixop"
+         data-semantic-role="implicit"
+         data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:2"
+         data-semantic-id="19"
+         data-semantic-children="8,10"
+         data-semantic-content="18"
+         data-semantic-parent="17"
+         data-semantic-owns="8 18 10"
+         aria-level="1"
+         data-speech-node="true"
+         transform="translate(1822.4)"
+         id="g3251"
+         style="fill:#fefefe;fill-opacity:1">
+        <g
+           data-mml-node="mi"
+           data-latex="d"
+           data-semantic-type="identifier"
+           data-semantic-role="latinletter"
+           data-semantic-font="italic"
+           data-semantic-annotation="clearspeak:simple;depth:3"
+           data-semantic-id="8"
+           data-semantic-parent="19"
+           data-semantic-attributes="latex:d"
+           aria-level="2"
+           data-speech-node="true"
+           id="g3247"
+           style="fill:#fefefe;fill-opacity:1">
+          <path
+             id="use3245"
+             d="M 429,632 370,389 c -21,37 -50,56 -89,56 C 216,445 159,412 109,345 63,283 40,218 40,151 40,63 91,-11 175,-11 c 43,0 85,23 125,70 11,-38 45,-70 92,-70 69,0 91,82 106,156 0,9 -5,14 -15,14 -9,0 -15,-7 -18,-21 C 445,59 421,19 394,19 c -17,0 -26,14 -26,41 0,15 2,31 6,47 l 142,572 v 4 c -3,7 -9,11 -17,11 -23,0 -65,-4 -125,-11 -11,-1 -17,-9 -17,-23 0,-10 9,-15 27,-15 19,0 45,1 45,-13 M 341,376 c 10,-21 15,-35 15,-44 -1,-4 -2,-9 -3,-16 L 304,122 C 301,111 294,99 285,87 248,42 212,19 177,19 c -39,0 -59,30 -59,89 0,24 6,60 18,108 21,85 51,143 88,174 20,17 39,25 58,25 27,0 47,-13 59,-39 z"
+             style="fill:#fefefe;fill-opacity:1" />
+        </g>
+        <g
+           data-mml-node="mspace"
+           data-latex="\\"
+           data-semantic-type="operator"
+           data-semantic-role="space"
+           data-semantic-annotation="depth:3"
+           data-semantic-id="18"
+           data-semantic-parent="19"
+           data-semantic-operator="infixop,⁢"
+           aria-level="2"
+           data-speech-node="true"
+           transform="translate(520)"
+           id="g3249"
+           style="fill:#fefefe;fill-opacity:1" />
+      </g>
+    </g>
+    <g
+       data-mjx-linebox="true"
+       data-mjx-lineno="3"
+       transform="matrix(0.00478873,0,0,-0.00478873,118.53182,73.143904)"
+       id="g3271"
+       style="fill:#fefefe;stroke:#000000;stroke-width:0;fill-opacity:1">
+      <g
+         data-mml-node="mrow"
+         data-semantic-added="true"
+         data-semantic-type="infixop"
+         data-semantic-role="implicit"
+         data-semantic-annotation="clearspeak:simple;clearspeak:unit;depth:2"
+         data-semantic-id="19"
+         data-semantic-children="8,10"
+         data-semantic-content="18"
+         data-semantic-parent="17"
+         data-semantic-owns="8 18 10"
+         aria-level="1"
+         data-speech-node="true"
+         id="g3261"
+         style="fill:#fefefe;fill-opacity:1">
+        <g
+           data-mml-node="mspace"
+           data-latex="\\"
+           data-semantic-type="operator"
+           data-semantic-role="space"
+           data-semantic-annotation="depth:3"
+           data-semantic-id="18"
+           data-semantic-parent="19"
+           data-semantic-operator="infixop,⁢"
+           aria-level="2"
+           data-speech-node="true"
+           id="g3255"
+           style="fill:#fefefe;fill-opacity:1" />
+        <g
+           data-mml-node="mi"
+           data-latex="k"
+           data-semantic-type="identifier"
+           data-semantic-role="latinletter"
+           data-semantic-font="italic"
+           data-semantic-annotation="clearspeak:simple;depth:3"
+           data-semantic-id="10"
+           data-semantic-parent="19"
+           data-semantic-attributes="latex:k"
+           aria-level="2"
+           data-speech-node="true"
+           id="g3259"
+           style="fill:#fefefe;fill-opacity:1">
+          <path
+             id="use3257"
+             d="m 409,353 c 0,-26 14,-39 41,-39 35,0 58,31 58,65 0,39 -32,66 -71,66 -45,0 -93,-30 -146,-89 -41,-45 -74,-74 -101,-87 l 101,410 c -2,9 -4,15 -17,15 -32,0 -108,-9 -120,-10 -15,-2 -22,-9 -22,-24 0,-10 9,-15 27,-15 19,0 45,1 45,-13 L 59,43 C 56,32 55,25 55,21 55,0 66,-11 87,-11 c 17,0 30,8 37,23 5,9 23,80 55,214 52,-5 107,-30 107,-80 0,-15 -7,-45 -7,-55 0,-57 37,-102 94,-102 58,0 97,52 117,156 0,9 -5,14 -15,14 -9,0 -15,-7 -18,-21 C 435,59 408,19 375,19 c -18,0 -27,14 -27,42 0,16 12,70 12,86 0,57 -46,92 -139,106 23,16 49,39 77,69 28,30 48,49 61,60 27,22 53,33 76,33 10,0 18,-2 24,-6 -27,-5 -50,-30 -50,-56 z"
+             style="fill:#fefefe;fill-opacity:1" />
+        </g>
+      </g>
+      <g
+         data-mml-node="mo"
+         data-latex="\times"
+         data-semantic-type="operator"
+         data-semantic-role="multiplication"
+         data-semantic-annotation="depth:2"
+         data-semantic-id="11"
+         data-semantic-parent="17"
+         data-semantic-attributes="latex:\times"
+         data-semantic-operator="infixop,×"
+         aria-level="1"
+         data-speech-node="true"
+         transform="translate(743.2)"
+         id="g3265"
+         style="fill:#fefefe;fill-opacity:1">
+        <path
+           id="use3263"
+           d="m 630,32 c 0,7 -2,12 -7,17 L 422,250 623,451 c 5,5 7,10 7,17 0,13 -10,23 -23,23 -7,0 -12,-2 -17,-7 L 389,283 188,484 c -5,5 -10,7 -17,7 -13,0 -23,-10 -23,-23 0,-7 2,-12 7,-17 L 356,250 155,49 c -5,-5 -7,-10 -7,-17 0,-13 10,-23 23,-23 7,0 12,2 17,7 L 389,217 590,16 c 5,-5 10,-7 17,-7 13,0 23,10 23,23 z"
+           style="fill:#fefefe;fill-opacity:1" />
+      </g>
+      <g
+         data-mml-node="mi"
+         data-latex="d"
+         data-semantic-type="identifier"
+         data-semantic-role="latinletter"
+         data-semantic-font="italic"
+         data-semantic-annotation="clearspeak:simple;depth:2"
+         data-semantic-id="12"
+         data-semantic-parent="17"
+         data-semantic-attributes="latex:d"
+         aria-level="1"
+         data-speech-node="true"
+         transform="translate(1743.4)"
+         id="g3269"
+         style="fill:#fefefe;fill-opacity:1">
+        <path
+           id="use3267"
+           d="M 429,632 370,389 c -21,37 -50,56 -89,56 C 216,445 159,412 109,345 63,283 40,218 40,151 40,63 91,-11 175,-11 c 43,0 85,23 125,70 11,-38 45,-70 92,-70 69,0 91,82 106,156 0,9 -5,14 -15,14 -9,0 -15,-7 -18,-21 C 445,59 421,19 394,19 c -17,0 -26,14 -26,41 0,15 2,31 6,47 l 142,572 v 4 c -3,7 -9,11 -17,11 -23,0 -65,-4 -125,-11 -11,-1 -17,-9 -17,-23 0,-10 9,-15 27,-15 19,0 45,1 45,-13 M 341,376 c 10,-21 15,-35 15,-44 -1,-4 -2,-9 -3,-16 L 304,122 C 301,111 294,99 285,87 248,42 212,19 177,19 c -39,0 -59,30 -59,89 0,24 6,60 18,108 21,85 51,143 88,174 20,17 39,25 58,25 27,0 47,-13 59,-39 z"
+           style="fill:#fefefe;fill-opacity:1" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.1;font-family:'Latin Modern Roman Slanted';-inkscape-font-specification:'Latin Modern Roman Slanted';letter-spacing:0px;word-spacing:0.0079375px;fill:#ffffff;stroke-width:0.499999;stroke-linecap:round;stroke-miterlimit:3;stroke-dasharray:none;paint-order:fill markers stroke;fill-opacity:1"
+       x="100.98044"
+       y="17.632036"
+       id="text4138"><tspan
+         sodipodi:role="line"
+         id="tspan4136"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.5;fill:#ffffff;fill-opacity:1"
+         x="100.98044"
+         y="17.632036">=</tspan></text>
+  </g>
+</svg>

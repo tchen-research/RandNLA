@@ -21,12 +21,9 @@ p {
     background-color: #1e356811 !important;
 } */
 
-.border-l-blue-400 {
-    border-left-color: red;
-}
 
 .myst-proof, .border-l-blue-400{
-    border-left: 4px solid red;
+    border-left: 4px solid;
     border-radius: 3px;
     box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)
 }
@@ -42,15 +39,28 @@ p {
     border-color: #1e3668;
 }
 
+.myst-proof:has(.bg-purple-50\/80) > .myst-proof-header{
+    background-color: #1e366833;
+}
+
 /* Proposition, Definition */
 .myst-proof:has(.bg-blue-50\/80){
     border-color: #199d8b;    
+}
+
+.myst-proof:has(.bg-blue-50\/80) > .myst-proof-header{
+    background-color: #199d8b33;    
 }
 
 /* Algorithm. Proof */
 .myst-proof:has(.bg-gray-50\/80){
     border-left-color: #ffb268;    
 }
+
+.myst-proof:has(.bg-gray-50\/80) > .myst-proof-header{
+    background-color: #ffb26833;    
+}
+
 
 /* code snippet */
 .border-l-blue-400 {

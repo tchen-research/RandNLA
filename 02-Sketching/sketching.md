@@ -22,17 +22,25 @@ The workhorse of RandNLA is a technique called *sketching*.[^linear-sketch]
 Sketching is a way to take a large matrix and create a smaller matrix (called a sketch) that approximates key properties of the original matrix.
 Which properties are approximated depends on the specific sketching method used, and the application at hand.
 
-:::{sidebar} Like in drawing
-This is like how a [sketch](./https://en.wikipedia.org/wiki/Sketch_(drawing)) captures the essence of an original image without all the details.
-![](https://upload.wikimedia.org/wikipedia/commons/3/32/Jesus_und_Ehebrecherin.jpg)
-:::
-
-![](./sketch_def.svg)
-
 [^linear-sketch]: In RandNLA, sketching is almost always done using a linear transform of the original matrix.
 
+:::{sidebar} Like in drawing
+This is like how a [sketch](./https://en.wikipedia.org/wiki/Sketch_(drawing)) captures the essence of an original image without all the details.
+![Historical sketch drawing showing simplified lines capturing the essence of a detailed scene](https://upload.wikimedia.org/wikipedia/commons/3/32/Jesus_und_Ehebrecherin.jpg)
+:::
 
-An example of sketching is illustrated in the above figure. 
+:::{image} ./sketch_def.svg
+:class: dark:hidden
+:alt: Diagram showing matrix sketching process: an n×d input matrix A is multiplied by a k×d sketching matrix S to produce a smaller k×d sketch SA, where k is much smaller than n
+:::
+
+:::{image} ./sketch_def-dark.svg
+:class: hidden dark:block
+:alt: Diagram showing matrix sketching process: an n×d input matrix A is multiplied by a k×d sketching matrix S to produce a smaller k×d sketch SA, where k is much smaller than n
+:::
+
+
+An example of sketching is illustrated above. 
 Here a sketching matrix $\vec{S}$ with *sketching/embedding dimension* $k$ is applied to a $n\times d$ input matrix $\vec{A}$.
 The resulting $k\times d$ sketch $\vec{S}\vec{A}$ is much smaller than the original matrix.
 

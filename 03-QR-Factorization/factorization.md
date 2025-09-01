@@ -27,7 +27,8 @@ Given $\vec{A}\in\R^{n\times d}$ (full rank), find a matrix $\vec{Q}\in\R^{n\tim
 :::
 
 Classical algorithms for computing the QR factorization, such as the LAPACK methods underlying [`np.linalg.qr`](https://numpy.org/doc/stable/reference/generated/numpy.linalg.qr.html), are typically based on Householder reflections or Givens rotations.
-These algorithms are numerically stable and run in $O(nd^2)$ operations, but inherently sequential, leading to relatively low [flop-rates](../01-Background/cost-of-numerical-linear-algebra.ipynb#Flops-are-not-necessarily-representative-of-cost) on modern hardware.
+These algorithms are numerically stable and run in $O(nd^2)$ operations.
+However, these algorithms are inherently sequential, leading to relatively low [flop-rates](../01-Background/cost-of-numerical-linear-algebra.ipynb#Flops-are-not-necessarily-representative-of-cost) on modern hardware.
 The algorithms presented in this chapter address this shortcoming.
 
 ## Other factorizations

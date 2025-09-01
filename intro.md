@@ -22,11 +22,12 @@ The content would be appropriate for a short module on RandNLA in a numerical li
 The majority of the book is dedicated to a collection of RandNLA algorithms for core linear algebra tasks that can often serve as *drop in replacements* for classical linear algebra methods.
 We view these methods as conceptually important and practically useful, especially for practitioners.
 These methods are characterized by the fact that their effectiveness is easily demonstrated in simple numerical experiments. 
+For example, the [Randomized SVD](./05-Low-Rank-Approximation/randomized-svd.ipynb) can be implemented in just a few lines of code, and produces high-quality low-rank approximations orders of magnitude faster than the exact SVD.
 
 
 We also provide an introduction to [sampling-based methods](./07-Sampling-Based-Methods/). 
 In many cases, these algorithms provide the best theoretical runtimes or may even be the only tractable algorithms.
-However, in large, these methods require some consideration about their appropriateness for a given computational environment.
+However, in large, these methods require consideration about their appropriateness for a given computational environment.
 
 
 
@@ -38,9 +39,10 @@ In my opinion:
 This allows the content to be more easily rendered in a flexible manner (e.g. for different formats, devices, etc.)
 Everyone knows how annoying it is trying to read a PDF meant for letter paper on a phone.
 Separating content and rendering also helps with accessibility (PDFs are pretty bad for this).
-- Content does not need to be designed for print. Even with a requirement that the content be printable, we can still prioritize the much more common use-cases of reading on a computer or mobile device. Stuff like collapsible sections, hover-references, etc. can greatly improve the reading experience. 
+- Content shouldn't be designed for print first.
+Even with a requirement that the content be printable, we can still prioritize the much more common use-cases of reading on a computer or mobile device. Stuff like collapsible sections, hover-references, etc. can greatly improve the reading experience. 
 Without a requirement for an "offline" version, we can also use interactive content (e.g. code snippets, interactive figures, etc.).
-- With modern version control, we do not need to emphasize static content as much. By hosing documents online, we allow bugs/typos to be fixed more easily, while maintaining a history of changes.
+- With modern version control, we don't need to emphasize static content as much. By hosing documents online, we allow bugs/typos to be fixed more easily, while maintaining a history of changes.
 
 Over the past few years, flexible technical document preparation formats (e.g. [MyST Markdown](https://mystmd.org) used in this document) are becoming more powerful, making a project like this viable.
 This is partly my attempt to experiment with these new formats.
@@ -54,7 +56,7 @@ Larger contributions are also welcome, but please open an issue first so we can 
 ## Other Resources
 
 We are not aware of any other resources that provide (i) a broad introduction to RandNLA (ii) a large collection of numerical examples.
-There are, however, many existing resources on RandNLA.
+There are, however, many excellent resources on RandNLA, particularly for researchers.
 The following surveys are of particular note:
 
 - @martinsson_tropp_20: This survey describes many RandNLA algorithms that have a proven track record for real-world problem instances. The paper treats both the theoretical foundations of the subject and the practical computational issues. 
@@ -63,9 +65,9 @@ The following surveys are of particular note:
 
 - @tropp_webber_23: This survey focuses specifically on randomized algorithms for computing low-rank matrix approximations. The work provides detailed non-asymptotic analyses of the performance of these algorithms and contains numerical examples to illustrate the effectiveness of the algorithms.
 
-- @woodruff_14: This is an early work on sketching, that provides a TCS-flavored overview of the field as of 2014. The focus is mostly on proving rates, and many of the key concepts in RandNLA are covered.
+- @woodruff_14: This is an early book on sketching that provides a TCS-flavored overview of the field as of 2014. The focus is mostly on proving rates, and many of the key concepts in RandNLA are covered.
 
-In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many informative posts on RandNLA topics as well as numerical experiments and code snippets.
+In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many informative posts on RandNLA topics, at both an introductory and research level, as well as numerical experiments and code snippets.
 
 
 ```{bibliography}
