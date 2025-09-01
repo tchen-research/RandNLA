@@ -18,7 +18,7 @@ numbering:
 
 At first glance, it might seem silly that this book would spend any time on algorithms for this task. 
 After all, we can compute the trace of a matrix by simply reading and summing its diagonal entries.
-The challenge arises when $\vec{A}$ is not available explicitly, but is instead accessibly only as a block-box linear operator which we can access through [matrix-vector product queries](../01-Background/cost-of-numerical-linear-algebra.ipynb#matrix-queries).
+The challenge arises when $\vec{A}$ is not available explicitly, but is instead accessibly only as a block-box linear operator which we can access through [matrix-vector product queries](../01-Background/cost-of-numerical-linear-algebra.ipynb#matrix-vector-queries).
 
 :::{prf:definition} Implicit Trace Estimation
 :label: task-trace-est

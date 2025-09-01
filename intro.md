@@ -19,10 +19,10 @@ Readers are expected to be familiar with (numerical) linear algebra and probabil
 The content would be appropriate for a short module on RandNLA in a numerical linear algebra course, or even as a weekend read for PhD students with a strong background in numerical linear algebra.
 
 
-The majority of the book is dedicated to a collection of RandNLA algorithms for core linear algebra tasks that can often serve as *drop in replacements* for classical linear algebra methods.
+The majority of the book is dedicated to a collection of RandNLA algorithms for core linear algebra tasks that can often serve as *drop in replacements* for classical linear algebra methods, while providing order-of-magnitude speedups 🤯.
 We view these methods as conceptually important and practically useful, especially for practitioners.
 These methods are characterized by the fact that their effectiveness is easily demonstrated in simple numerical experiments. 
-For example, the [Randomized SVD](./05-Low-Rank-Approximation/randomized-svd.ipynb) can be implemented in just a few lines of code, and produces high-quality low-rank approximations orders of magnitude faster than the exact SVD.
+For example, the [Randomized SVD](./05-Low-Rank-Approximation/randomized-svd.ipynb) can be implemented in just a few lines of code, and produces high-quality low-rank approximations way faster than the exact SVD.
 
 
 We also provide an introduction to [sampling-based methods](./07-Sampling-Based-Methods/). 
@@ -33,7 +33,7 @@ However, in large, these methods require consideration about their appropriatene
 
 ### Why this format?
 
-Academic publishing is stuck using design choices that were made decades or centuries ago and are no longer relevant to the way information is created/consumed today. 
+Academic publishing is stuck using design choices that were made decades or centuries ago and are no longer relevant to the way information is created/consumed today 😞. 
 In my opinion:
 - Content creating and rendering should be though of as distinct tasks. 
 This allows the content to be more easily rendered in a flexible manner (e.g. for different formats, devices, etc.)
