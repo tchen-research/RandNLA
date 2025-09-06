@@ -15,7 +15,7 @@ numbering:
     enumerator: 1.%s
 ---
 
-What is randomized numerical linear algebra? 
+What is randomized numerical linear algebra? Let's break it down:
 
 - **randomness** is the concession that we can't reliably predict how dice are going to land,[^rand] and
 - **numerical linear algebra** is about algorithms for doing linear algebra on computers. 

@@ -1,7 +1,7 @@
 ---
-title: Measuring Error
-description: Understanding the role of randomness in randomized numerical linear algebra algorithms, including expectation bounds, probability bounds, and boosting techniques
-keywords: [randomness, probability bounds, expectation bounds, boosting, tail bounds, Markov inequality, randomized algorithms]
+title: Measuring error
+description: Methods for quantifying accuracy in randomized numerical linear algebra algorithms including a priori bounds, expectation bounds, probability bounds, and practical stopping criteria
+keywords: [error analysis, expectation bounds, probability bounds, tail bounds, accuracy, a priori bounds, a posteriori bounds, stopping criteria, boosting, median trick]
 numbering:
   equation:
     enumerator: 1.%s

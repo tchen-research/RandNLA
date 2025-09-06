@@ -1,0 +1,92 @@
+/* 
+\definecolor{C0}{HTML}{1d1d1d}
+\definecolor{C1}{HTML}{1e3668}
+\definecolor{C2}{HTML}{199d8b}
+\definecolor{C3}{HTML}{d52f4c}
+\definecolor{C4}{HTML}{5ab2d6}
+\definecolor{C5}{HTML}{ffb268}
+} */
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato';
+}
+
+@media (min-width: 768px) {
+p {
+    text-align: justify;
+}    
+}
+/* .bg-blue-50\/80 {
+    background-color: #1e356811 !important;
+} */
+
+
+.myst-proof, .border-l-blue-400{
+    border-left: 4px solid;
+    border-radius: 3px;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)
+}
+
+.myst-proof-header {
+    font-size: 120%;
+    line-height: 1.2em;
+
+}
+
+/* Theorem, Lemma */
+.myst-proof:has(.bg-purple-50\/80){
+    border-color: #1e3668;
+}
+
+.myst-proof:has(.bg-purple-50\/80) > .myst-proof-header{
+    background-color: #1e366833;
+}
+
+/* Proposition, Definition */
+.myst-proof:has(.bg-blue-50\/80){
+    border-color: #199d8b;    
+}
+
+.myst-proof:has(.bg-blue-50\/80) > .myst-proof-header{
+    background-color: #199d8b33;    
+}
+
+/* Algorithm. Proof */
+.myst-proof:has(.bg-gray-50\/80){
+    border-left-color: #ffb268;    
+}
+
+.myst-proof:has(.bg-gray-50\/80) > .myst-proof-header{
+    background-color: #ffb26833;    
+}
+
+
+/* code snippet */
+.border-l-blue-400 {
+    border-left-color: #5ab2d6;    
+}
+
+
+.border-l-blue-500, .hover\:border-l-blue-500:hover, .hover\:text-blue-600:hover, .hover\:border-blue-600:hover{
+    border-color: #1e3668;
+    color: #1e3668;
+}
+
+.hover-link, .text-blue-600, .text-blue-800, .border-l-blue-500
+{
+    color: #1e3668;
+}
+
+.hover-link:hover {
+    color: #199d8b;
+}
+
+.outline-blue-200 {
+    outline-color: #1e366855;
+}
+
+
+.bg-blue-300\/30, .bg-blue-50,.bg-purple-50\/80, .bg-blue-50\/80, .bg-gray-50\/80{
+    background-color: #1e356811;
+} 

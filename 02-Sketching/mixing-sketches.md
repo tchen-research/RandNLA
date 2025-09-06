@@ -30,6 +30,14 @@ The most common mixing-type sketching distributions are:
 - [Sparse](./sparse-sketch.md)
 - [Trigonometric](./trig-sketch.md)
 
-Each have their own pros and cost (in theory and in practice). 
-In the subsequent sections, we will introduce all of these methods. 
+Gaussian sketches can be viewed as the prototypical sketching distribution. 
+Since the Gaussian distribution is so nice to work with, it's often easiest to analyze RandNLA algorithms that use Gaussian sketches. 
+However, generating an applying Gaussian sketching matrices is expensive.
+
+To reduce the cost of generating and applying the sketching matrix, it is common to use structured sketches.
+Common examples include using sparsity or fast trigonometric transforms (e.g. FFT).
+Remarkably, the mathematical behavior of these structured sketching distributions is often very similar to Gaussian sketches, so any intuition we build from analyses of algorithms based on Gaussian sketches typicaly extends to these structured sketches too.
+
+
+In the subsequent sections, we will introduce all of these methods in detail. 
 We then compare them head to head in [numerical experiments](./which-sketch-should-i-use.ipynb).

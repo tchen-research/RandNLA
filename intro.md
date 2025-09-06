@@ -16,7 +16,7 @@ Jupyter notebooks with the code examples can be downloaded from [Github](https:/
 
 The intended audience is students and researchers new to the topic.
 Readers are expected to be familiar with (numerical) linear algebra and probability, but a basic refresher is provided [here](../01-Background/review.md).
-The content would be appropriate for a short module on RandNLA in a numerical linear algebra course, or even as a weekend read for PhD students with a strong background in numerical linear algebra.
+The content covered would be appropriate for a short module on RandNLA in a numerical linear algebra course, or even as a weekend read for PhD students with a strong background in numerical linear algebra.
 
 
 The majority of the book is dedicated to a collection of RandNLA algorithms for core linear algebra tasks that can often serve as *drop in replacements* for classical linear algebra methods, while providing order-of-magnitude speedups 🤯.
@@ -68,6 +68,21 @@ The following surveys are of particular note:
 - @woodruff_14: This is an early book on sketching that provides a TCS-flavored overview of the field as of 2014. The focus is mostly on proving rates, and many of the key concepts in RandNLA are covered.
 
 In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many informative posts on RandNLA topics, at both an introductory and research level, as well as numerical experiments and code snippets.
+
+
+## Citing this book
+
+This book can currently be cited as:
+```
+@book{RandNLAwithExamples,
+    title = {Randomized Numerical Linear Algebra with Examples},
+    author = {Tyler Chen},
+    year = {2025},
+    version = {prerelease},
+    url = {https://research.chen.pw/RandNLA},
+}
+```
+
 
 
 ```{bibliography}

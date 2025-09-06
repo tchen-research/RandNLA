@@ -16,8 +16,7 @@ numbering:
   heading_2: false
 ---
 
-
-Linear regression is one of the core tasks in numerical linear algebra.
+This chapter focuses on the (tall) linear regression problem.
 
 :::{prf:definition} Linear Regression
 :label: task-regression
@@ -34,11 +33,7 @@ Classical direct solvers for {eq}`task-regression` such as the LAPACK method und
 First, $\vec{A}$ is factorized (e.g QR factorization).
 Second, the factorization is used to solve the linear system.
 When implemented properly, such algorithms are numerically stable and require $O(nd^2)$ operations.
-
-However, we identify two shortcomings of the above approach:.
-
-- The dominant cost is computing a matrix factorization which, as we have seen in our discussion on the [cost of linear algebra](../01-Background/cost-of-numerical-linear-algebra.ipynb), does not have a particularly high flop-rate. 
-- The total number of flops is $O(nd^2)$, which might be too expensive when $n\gg d \gg 1$.
+However, the dominant cost of this approach is computing a matrix factorization which, as we have seen in our discussion on the [cost of linear algebra](../01-Background/cost-of-numerical-linear-algebra.ipynb), does not have a particularly high flop-rate. Moreover, the total number of flops is $O(nd^2)$, which might be too expensive when $n\gg d \gg 1$.
 
 
 ## Iterative Methods

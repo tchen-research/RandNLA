@@ -1,7 +1,7 @@
 ---
 title: Kernel Polynomial Method
-description: Combining Lanczos method with Girard-Hutchinson estimator for matrix function trace estimation
-keywords: [stochastic Lanczos quadrature, SLQ, Lanczos method, quadratic forms, matrix functions, polynomial approximation, error bounds]
+description: Alternative method to Stochastic Lanczos Quadrature for spectral density approximation using Chebyshev moments with smooth function approximation
+keywords: [kernel polynomial method, KPM, spectral density, Chebyshev moments, smooth approximation, physics applications]
 numbering:
   equation:
     enumerator: 6.%s
