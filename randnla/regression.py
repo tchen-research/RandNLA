@@ -3,6 +3,7 @@ import scipy as sp
 
 from .sketching import sparse_stack_sketch
 from .factorization import randomized_cholesky_QR,sketched_qr
+from .iterative import lsqr
 
 
 def randomized_cholesky_QR_regression_naive(A,b,k,zeta,rng):
@@ -23,4 +24,17 @@ def randomized_cholesky_QR_regression(A,b,k,zeta,rng):
 
     return x
 
+def sketch_and_precondition(A,b,k,zeta,n_iters,rng):
+    
+    n, d = A.shape
+    S = sparse_stack_sketch(n,k,zeta,rng) 
+    Y = S @ A 
+    Q,R = np.linalg.qr(Y, mode='reduced')
 
+    x0 = sp.linalg.solve_triangular(R,Q.T@(S@b),lower=False)
+
+    M = sp.linalg.solve_triangular(R,np.eye(d),lower=False)
+
+    x = lsqr(A,b,x0,M,n_iters)
+
+    return x
