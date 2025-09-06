@@ -111,7 +111,7 @@ project:
     '\nnz' : '\operatorname{nnz}'
 
 site:
-  template: https://github.com/myst-templates/article-theme/archive/79a2234133450f53afbf05238d626f728e1a6306.zip
+  template: book-theme
   options:
     analytics_google: UA-50592837-1 
     style: style.css
