@@ -20,6 +20,7 @@ numbering:
     continue: true
 ---
 
+
 ## Matrices 
 
 It is often useful to think of a matrix-vector product can be though of as a linear combination of the columns of the matrix. 

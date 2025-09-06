@@ -151,6 +151,7 @@ Concentration inequalities tell us how close a random variable is to some value.
 The most basic concentration inequality is Markov's.
 
 :::{prf:theorem} Markov's Inequality
+:label: def-markov
 Let $X$ be a non-negative random variable. 
 Then
 \begin{equation*}

@@ -3,12 +3,16 @@ version: 1
 
 project:
   id: c97a7f4f-728b-46a1-a63d-62a5d6e5170c
+
+  contributors:
+    - id: tc
+      name: Tyler Chen
+      url: https://research.chen.pw
+      orcid: 0000-0002-1187-1026
+      github: tchen-research
   authors:
-  - id: tc
-    name: Tyler Chen
-    url: https://research.chen.pw
-    orcid: 0000-0002-1187-1026
-    github: tchen-research
+  - tc
+   
   license: CC-BY-4.0
   title: Randomized Numerical Linear Algebra with Examples
   description:
