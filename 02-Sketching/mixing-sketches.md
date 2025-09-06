@@ -23,7 +23,7 @@ numbering:
 ## Mixing Sketches
 
 Mixing-based sketching methods produce a sketch $\vec{S}\vec{A}$ where each row of the sketch is a linear combination of multiple rows of $\vec{A}$.
-Often such methods are *obvlious*, meaning the sketching distribution does not depend on the input matrix $\vec{A}$ (other than through the dimension).
+Often such methods are *obvlious*, meaning the sketching distribution works for any fixed subspace of the given dimension.
 The most common mixing-type sketching distributions are:
 
 - [Gaussian](./Gaussian-sketch.md)

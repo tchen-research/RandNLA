@@ -44,7 +44,7 @@ Thus, even if the randomized algorithm is not particularly accurate, it may be t
 
 
 
-## Randomness as a preconditioner
+## Randomness to avoid weird cases
 
 Many RandNLA algorithms use randomness in a much milder way: as a means to avoid pathological cases.
 

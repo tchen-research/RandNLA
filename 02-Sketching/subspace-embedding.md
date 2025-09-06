@@ -83,3 +83,4 @@ Finally, note that
 In TCS, where the rates as $\varepsilon\to0$ are important, the set of "equivalent" definitions is larger.
 For instance, the condition on the spectral norm is often written as $\| \vec{V}^\T \vec{S}^\T \vec{S} \vec{V} - \vec{I} \|_2 \leq \varepsilon$.
 Similarly, in some cases, a subspace embedding is defined with respect to the squared norms, since $\sqrt{1+\varepsilon} = 1 + \varepsilon/2 + O(\varepsilon^2)$ as $\varepsilon \to 0$.
+
