@@ -84,11 +84,14 @@ project:
     - file: 07-Sampling-Based-Methods/sampling.md
       children:
         - file: 07-Sampling-Based-Methods/approximate-matrix-multiplication.md
-        - file: 07-Sampling-Based-Methods/active-regression.ipynb
-        - file: 07-Sampling-Based-Methods/low-rank-approximation.ipynb
-        - file: 07-Sampling-Based-Methods/cholesky.ipynb
-        - file: 07-Sampling-Based-Methods/cur.ipynb
-        - file: 07-Sampling-Based-Methods/sgd-kaczmarz.ipynb
+        - file: 07-Sampling-Based-Methods/regression-sampling.md
+          children:
+          - file: 07-Sampling-Based-Methods/active-regression.ipynb
+          - file: 07-Sampling-Based-Methods/sgd-kaczmarz.ipynb
+        - file: 07-Sampling-Based-Methods/low-rank-approximation-sampling.md
+          children:
+          - file: 07-Sampling-Based-Methods/cur.ipynb
+          - file: 07-Sampling-Based-Methods/cholesky.ipynb
   math:
   # Note the 'single quotes'
     '\vec': '\mathbf'

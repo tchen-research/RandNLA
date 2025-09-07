@@ -33,6 +33,12 @@ In particular, if $\vec{A} = \vec{U} \vec{\Sigma} \vec{V}^\T$ is the SVD of $\ve
 \end{equation}
 where $\vec{U}_k$ contains the first $k$ columns of $\vec{U}$, $\vec{\Sigma}_k$ is the diagonal matrix containing the first $k$ singular values, and $\vec{V}_k$ contains the first $k$ columns of $\vec{V}$.
 
+This chapter focuses on algorithms which work with matrices stored in memory. 
+When reading individual entries of $\vec{A}$ is expensive, a related class of [sampling-based low-rank approximation](./low-rank-approximation-sampling) methods may be more appropriate. 
+We discuss these methods along side other sampling-based methods in [Chapter 7](./sampling).
+
+
+
 ### Further reading
 
 - @halko_martinsson_tropp_11: Early survey on the [Randomized SVD](./randomized-svd.ipynb) and [Randomized Subspace Iteration](./subspace-iteration.ipynb) that that popularized RandNLA for low-rank approximation.
