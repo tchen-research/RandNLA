@@ -53,6 +53,20 @@ We welcome contributions and suggestions for improvement.
 In particular readers can fix typos, update or add references/experiments/information, and suggest changes on [Github](https://github.com/tchen-research/RandNLA).
 Larger contributions are also welcome, but please open an issue first so we can discuss how the content fits into the narrative before investing too much time.
 
+
+### Citing this book
+
+This book can currently be cited as:
+```
+@book{RandNLAwithExamples,
+    title = {Randomized Numerical Linear Algebra with Examples},
+    author = {Tyler Chen},
+    year = {2025},
+    version = {prerelease},
+    url = {https://research.chen.pw/RandNLA},
+}
+```
+
 ## Other Resources
 
 We are not aware of any other resources that provide (i) a broad introduction to RandNLA (ii) a large collection of numerical examples.
@@ -68,20 +82,6 @@ The following surveys are of particular note:
 - @woodruff_14: This is an early book on sketching that provides a TCS-flavored overview of the field as of 2014. The focus is mostly on proving rates, and many of the key concepts in RandNLA are covered.
 
 In addition, we highly recommend [Ethan Epperly's blog](https://www.ethanepperly.com/index.php/posts-by-topic/), which contains many informative posts on RandNLA topics, at both an introductory and research level, as well as numerical experiments and code snippets.
-
-
-## Citing this book
-
-This book can currently be cited as:
-```
-@book{RandNLAwithExamples,
-    title = {Randomized Numerical Linear Algebra with Examples},
-    author = {Tyler Chen},
-    year = {2025},
-    version = {prerelease},
-    url = {https://research.chen.pw/RandNLA},
-}
-```
 
 
 

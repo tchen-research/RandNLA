@@ -37,6 +37,14 @@ x_1 \\ \vdots \\ x_d \end{bmatrix}
 \end{equation*}
 
 
+## Norms
+
+:::{prf:theorem}
+:label: thm-l2-l1
+\begin{equation*}
+\| \vec{x} \|_2 \leq \|\vec{x}\|_1 \leq \sqrt{n} \|\vec{x}\|_2
+\end{equation*}
+:::
 
 
 ## Factorizations

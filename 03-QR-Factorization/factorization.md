@@ -42,5 +42,5 @@ Simply compute an SVD $\vec{R} = \vec{U}' \vec{\Sigma} \vec{V}^\T$ and then set 
 
 
 ## Further Reading
-
-- 
+- {cite:p}`epperly_24chokleskyqr`: Accessible blog post introducing randomized Cholesky QR
+- {cite:p}`fan_guo_lin_21,balabanov_22,higgins_etal_23,melnichenko_etal_25`: Recent research papers on the topic.
