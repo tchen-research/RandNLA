@@ -38,6 +38,7 @@ A natural approach is to combine the implicit trace estimation algorithms discus
 
 ## Lanczos for matrix-functions
 
+[Recall](../01-Background/review-NLA/#Krylov-subspace-methods), the Lanczos algorithm produces an orthonormal basis $\vec{Q}\in\R^{n\times k}$ for the Krylov subspace $\mathcal{K}_k(\vec{A}, \vec{x})$ and a symmetric tridiagonal matrix $\vec{T}\in\R^{k\times k}$ such that $\vec{T} = \vec{Q}^\T\vec{A}\vec{Q}$.
 
 The output of the Lanczos method can then be used to approximate $f(\vec{A})\vec{x}$ and $\vec{x}^\T f(\vec{A})\vec{x}$.
 This requires $k-1$ matrix-vector products with $\vec{A}$.

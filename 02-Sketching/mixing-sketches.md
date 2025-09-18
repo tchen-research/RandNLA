@@ -26,9 +26,9 @@ Mixing-based sketching methods produce a sketch $\vec{S}\vec{A}$ where each row 
 Often such methods are *obvlious*, meaning the sketching distribution works for any fixed subspace of the given dimension.
 The most common mixing-type sketching distributions are:
 
-- [Gaussian](./Gaussian-sketch.md)
-- [Sparse](./sparse-sketch.md)
-- [Trigonometric](./trig-sketch.md)
+- [Gaussian](./Gaussian-sketch.ipynb)
+- [Sparse](./sparse-sketch.ipynb)
+- [Trigonometric](./trig-sketch.ipynb)
 
 Gaussian sketches can be viewed as the prototypical sketching distribution. 
 Since the Gaussian distribution is so nice to work with, it's often easiest to analyze RandNLA algorithms that use Gaussian sketches. 

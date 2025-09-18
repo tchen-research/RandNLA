@@ -45,7 +45,7 @@ Here a sketching matrix $\vec{S}$ with *sketching/embedding dimension* $k$ is ap
 The resulting $k\times d$ sketch $\vec{S}\vec{A}$ is much smaller than the original matrix.
 
 When choosing a sketching distribution, two important considerations are:
-- How fast the sketching matrix can be generated and applied to $\vec{A}$,
+- How fast the sketching matrix can be generated and applied to $\vec{A}$, and
 - How well the sketch $\vec{S}\vec{A}$ approximates the original matrix $\vec{A}$.
 
 While these two considerations are often at odds with each other, by choosing the sketch at random from a suitable distribution, we can often achieve a good balance between the two.

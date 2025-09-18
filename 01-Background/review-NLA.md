@@ -32,17 +32,22 @@ That is,
 | & & |
 \end{bmatrix}
 \begin{bmatrix} 
-x_1 \\ \vdots \\ x_d \end{bmatrix} 
-= x_1 \vec{a}_1 + \cdots + x_d \vec{a}_d.
+c_1 \\ \vdots \\ c_d \end{bmatrix} 
+= c_1 \vec{a}_1 + \cdots + c_d \vec{a}_d.
 \end{equation*}
 
 
 ## Norms
 
+It is often useful to bound different norms with each other.
+
 :::{prf:theorem}
 :label: thm-l2-l1
 \begin{equation*}
+\forall \vec{x}\in\R^n:~
 \| \vec{x} \|_2 \leq \|\vec{x}\|_1 \leq \sqrt{n} \|\vec{x}\|_2
+,\quad
+\| \vec{x} \|_\infty \leq \|\vec{x}\|_2 \leq \sqrt{n} \|\vec{x}\|_\infty
 \end{equation*}
 :::
 
@@ -113,15 +118,10 @@ where $\smax(\vec{A})$ and $\smin(\vec{A})$ are the largest and smallest singula
 The conditioning of many core linear algebra tasks depends on the condition number.
 
 
-## The Lanczos Method for Matrix Functions
+## Krylov subspace methods
 
-Let $\vec{A}\in\R^{n\times n}$ be a symmetric matrix with eigendecomposition $\vec{A} = \sum_{i=1}^{n} \lambda_i \vec{u}_i \vec{u}_i^\T$, where $\lambda_i$ are the eigenvalues and $\vec{u}_i$ are the orthonormal eigenvectors of $\vec{A}$.
-Recall the matrix function corresponding to $\vec{A}$ and $f:\R\to\R$ is defined as
-\begin{equation*}
-f(\vec{A}) := \sum_{i=1}^{n} f(\lambda_i) \vec{u}_i \vec{u}_i^\T.
-\end{equation*}
-
-The Lanczos method can be used to approximate the maps $\vec{x}\mapsto \vec{x}^\T f(\vec{A})\vec{x}$ and $\vec{x}\mapsto f(\vec{A})\vec{x}$.
+Krylov subspace methods are an important and powerful class of algorithms in numerical linear algebra.
+Such algorithms make use of the information in the so-called Krylov subspace.
 
 :::{prf:definition} Krylov Subspace
 Given a matrix $\vec{A}\in\R^{n\times n}$ and a vector $\vec{x}\in\R^n$, the *Krylov subspace* of order $k$ is defined as
@@ -130,4 +130,10 @@ Given a matrix $\vec{A}\in\R^{n\times n}$ and a vector $\vec{x}\in\R^n$, the *Kr
 \end{equation*}
 :::
 
-When applied to a symmetric matrix $\vec{A}$ for $k$ iterations, the [Lanczos algorithm](https://en.wikipedia.org/wiki/Lanczos_algorithm) produces an orthonormal basis $\vec{Q}\in\R^{n\times k}$ for the Krylov subspace $\mathcal{K}_k(\vec{A}, \vec{x})$ and a symmetric tridiagonal matrix $\vec{T}\in\R^{k\times k}$ such that $\vec{T} = \vec{Q}^\T\vec{A}\vec{Q}$.
+
+Computationally, it is useful to obtain an orthonormal basis for relevant subspaces. In the case of Krylov subspaces, this can be done by the [Arnoldi algorithm](https://en.wikipedia.org/wiki/Arnoldi_iteration#The_Arnoldi_iteration).
+When applied to a symmetric matrix $\vec{A}$ for $k$ iterations, the arnoldi algorithm produces an orthonormal basis $\vec{Q}\in\R^{n\times k}$ for the Krylov subspace $\mathcal{K}_k(\vec{A}, \vec{x})$ and an [upper-Hessenberg](https://en.wikipedia.org/wiki/Hessenberg_matrix) matrix $\vec{H}\in\R^{k\times k}$ such that $\vec{H} = \vec{Q}^\T\vec{A}\vec{Q}$.
+
+In the special case that $\vec{A}$ is symmetric, we observe that $\vec{Q}^\T\vec{A}\vec{Q}$ is also symmetric.
+This means $\vec{H}$ is both upper-Hessenberg and symmetric, and thus tridiagonal.
+This allows substantial simplifications to the Arnoldi algorithm, which is then called the [Lanczos algorithm](https://en.wikipedia.org/wiki/Lanczos_algorithm).

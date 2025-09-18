@@ -57,7 +57,3 @@ The accuracy and reliability of the algorithm are high, despite the fact that th
 Another key example is the use of randomness to construct a [preconditioner](https://en.wikipedia.org/wiki/Preconditioner) for regression problems. 
 Here it is possible to obtain extremely good preconditioners that guarantee rapid convergence of iterative methods.
 Again, the accuracy and reliability of the algorithm are high, since all that we need to guarantee is that the preconditioned problem is reasonably well-conditioned.
-
-
-
-

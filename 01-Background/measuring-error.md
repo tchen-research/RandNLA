@@ -75,25 +75,24 @@ In addition, it is sometimes much easier to analyze an algorithm using one type 
 
 #### Boosting / median-trick
 
-If we are interested in the existence of an algorithm for a task (this is often the case in TCS), then it is unimportant to quantify the dependence of the cost on the failure probability. 
-The reason is that any algorithm that succeeds with some constanat probability $\delta_0>1/2$ can be converted to an algorithm that succeeds with arbitrary probability $\delta$ with only logarithmic overhead. 
+If we are interested in the existence of an algorithm for a task (this is often the case in TCS) as opposed to the analysis of a particular algorithm, then it is unimportant to quantify the dependence of the cost on the failure probability. 
+The reason is that any algorithm that succeeds with some constant probability $\delta_0>1/2$ can be converted to an algorithm that succeeds with arbitrary probability $\delta$ with only logarithmic overhead. 
 In particular, by independently running the algorithm $O(\log(1/\delta))$ times, we can guarantee that, with probability at least $1-\delta$, more than half of the runs of the algorithm succeed.
-There is then a black-box procedure for identifying one of the successful runs (take the median).
+There is then a black-box procedure for identifying a point near of the successful runs (in 1 dimension, you can just take the median).
 
 
 
 ## A posteriori bounds / practical stopping criteria
 
+Prior bounds are typically parameterized in terms of unknown properties of the problem instance (e.g. the singular values of an input matrix), and the constants in the bounds may be pessimistic or even unknown. 
+This immediately limits the practical use of such bounds.
+Moreover, the behavior of an algorithm on a *particular input instance* is often much better than predicted by worst-case bounds.[^instance]
 
-In many cases, a priori bounds are parameterized in terms of unknown properties of the problem instance (e.g. the singular values of an input matrix).
-Likewise, the constants in the bounds may be pessimistic or even unknown. 
-These difficulties immediately limits the practical use of such bounds.
-Moreover, the behavior of an algorithm on a particular input can often be better than predicted by worst-case bounds.
-While there are some cases of instance-specific a priori bounds (e.g. for Krylov methods), these bounds are almost always are parameterized in terms of unknown properties of the problem instance. 
+[^instance]: While there are some cases of instance-specific a priori bounds (e.g. instance-optimality for Krylov methods), these bounds are almost always are parameterized in terms of unknown properties of the problem instance. 
 
 In total, this means that a practical algorithm requires some way of choosing parameters, such as the stopping criteria.
 Fortunately, in many cases, there are ways to compute or estimate the error of an NLA algorithm. 
-For instance, the residual can be used to measure the accuracy of an approximate solution to a linear system of equations.
+For example, the residual can be used to measure the accuracy of an approximate solution to a linear system of equations.
 
 Interestingly, in many cases, the use of randomness in a RandNLA algorithm can actually *help* quantify the error. 
 For example, we can use techniques like bootstrapping to estimate the variance of certain RandNLA algorithms with little computational overhead {cite:p}`epperly_tropp_24`.
@@ -101,14 +100,13 @@ For example, we can use techniques like bootstrapping to estimate the variance o
 
 ## Some more thoughts
 
-
 Prior bounds are useful for establishing upper bounds on the theoretical complexity of a linear algebra *task*.
 They are also useful in establishing rates of convergence of an algorithm and understanding the dependence of an algorithm on certain properties of a problem, both of which can help inform the user about the suitability of a given algorithm for a given problem.[^upper-to-upper]
 However, there seems to be a bit of an obsession in proving marginally better prior bounds for a given algorithm just for the sake of proving something.
 
 [^upper-to-upper]: You can't compare upper bounds of one algorithm to upper bounds of another algorithm and conclude that one is better than the other! You need some sort of lower bounds (e.g. by knowing that the upper bound is pretty sharp in practice).
 
-On the other hand, despite being arguably more important for practical computations, a posteriori bounds and parameter section techniques seem to be far less emphasized by the community.
+On the other hand, despite being arguably more important for practical computations, a posteriori bounds and parameter section techniques seem to be far less emphasized by the NLA community.
 
 
 
