@@ -8,10 +8,10 @@
 } */
 
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 
-/* .katex .mathbf {
+.katex .mathbf {
     font-family: 'Vollkorn', serif;
     font-feature-settings: 'lnum';
     font-weight: bold;
@@ -25,9 +25,9 @@
 .katex .mathrm {
     font-family: 'Vollkorn', serif;
     font-feature-settings: 'lnum';
-} */
+}
 
-/* body {
+ body {
     font-family: 'Vollkorn', serif;
     font-feature-settings: 'lnum';
 }
@@ -44,9 +44,9 @@ p, ul, ol {
     /* font-family: 'Vollkorn', serif; */
 }
 
-/* h1, h2, h3, h4, h5, h6, header, nav, .myst-proof-header, .myst-aside-title, table, .myst-dropdown-header-title {
+ h1, h2, h3, h4, h5, h6, header, nav, .myst-proof-header, .myst-aside-title, table, .myst-dropdown-header-title {
     font-family: 'Lato';
-} */
+} 
 
 a {
     text-underline-offset: 2pt;
@@ -54,7 +54,7 @@ a {
 
 .myst-proof-header {
     font-weight: 600;
-} */
+}  */
 
 @media (min-width: 768px) {
 p {

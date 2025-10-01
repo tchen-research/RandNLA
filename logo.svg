@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="184.55487"
-     inkscape:cy="72.124892"
+     inkscape:cx="184.55486"
+     inkscape:cy="72.12489"
      inkscape:window-width="1864"
      inkscape:window-height="1000"
      inkscape:window-x="56"
@@ -41,13 +41,13 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-size:9.87778px;line-height:1.1;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';letter-spacing:0px;word-spacing:0.0079375px;fill:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-miterlimit:3;paint-order:fill markers stroke"
+       style="font-size:8.46667px;line-height:1.1;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';letter-spacing:0px;word-spacing:0.0079375px;fill:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-miterlimit:3;paint-order:fill markers stroke"
        x="2.7565162"
        y="10.871497"
        id="text236"><tspan
          sodipodi:role="line"
          id="tspan234"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.5"
          x="2.7565162"
          y="10.871497">RandNLA + Examples</tspan></text>
   </g>

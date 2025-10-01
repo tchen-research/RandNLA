@@ -44,7 +44,7 @@ In particular, a subspace embedding ensures that the lengths of all vectors with
 It will sometimes be useful to work with the following equivalent characterizations of subspace embeddings:
 
 :::{prf:theorem}
-
+:label: thm-se-equivalent
 Let $\vec{V}$ be an orthonormal basis for a subspace $V$ of $\R^n$. 
 The following are equivalent:
 - $\vec{S}$ is a subspace embedding for $V$ with distortion $\varepsilon$
