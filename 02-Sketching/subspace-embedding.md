@@ -48,6 +48,7 @@ It will sometimes be useful to work with the following equivalent characterizati
 Let $\vec{V}$ be an orthonormal basis for a subspace $V$ of $\R^n$. 
 The following are equivalent:
 - $\vec{S}$ is a subspace embedding for $V$ with distortion $\varepsilon$
+- $\forall \vec{c}\in \R^d: (1-\varepsilon)\|\vec{V}\vec{c}\| \leq \|\vec{S}\vec{V}\vec{c}\| \leq (1+\varepsilon)\|\vec{V}\vec{c}\|$
 - $\forall \vec{c}\in \R^d: (1-\varepsilon)\|\vec{c}\| \leq \|\vec{S}\vec{V}\vec{c}\| \leq (1+\varepsilon)\|\vec{c}\|$
 - $\| \vec{V}^\T \vec{S}^\T \vec{S} \vec{V} - \vec{I} \|_2 \leq \varepsilon(2+\varepsilon)$
 - $1-\varepsilon \leq \smin(\vec{S}\vec{V}) \leq \smax(\vec{S}\vec{V}) \leq 1+\varepsilon$
@@ -58,7 +59,11 @@ The following are equivalent:
 :enumerated: false
 Suppose $\vec{S}$ is a subspace embedding for $V$.
 Any $\vec{x} \in V$ can be written as $\vec{x} = \vec{V}\vec{c}$ for some $\vec{c} \in \R^d$.
-Since $\vec{V}$ is orthonormal, $\|\vec{V}\vec{c}\| = \|\vec{c}\|$ and hence
+Thus, the subspace embedding condition can be rewritten as (this is true even if $\vec{V}$ isn't orthonormal)
+\begin{equation*}
+\forall \vec{c}\in \R^d: (1-\varepsilon)\|\vec{V}\vec{c}\| \leq \|\vec{S}\vec{V}\vec{c}\| \leq (1+\varepsilon)\|\vec{V}\vec{c}\|.
+\end{equation*}
+Since $\vec{V}$ is orthonormal, $\|\vec{V}\vec{c}\| = \|\vec{c}\|$ and hence we have the equivalent condition
 \begin{equation*}
 \forall \vec{c}\in \R^d: (1-\varepsilon)\|\vec{c}\| \leq \|\vec{S}\vec{V}\vec{c}\| \leq (1+\varepsilon)\|\vec{c}\|.
 \end{equation*}

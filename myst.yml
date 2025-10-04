@@ -91,6 +91,7 @@ project:
           children:
           - file: 07-Sampling-Based-Methods/cur.ipynb
           - file: 07-Sampling-Based-Methods/cholesky.ipynb
+    # - file: 08-Applications/applications.md
   math:
   # Note the 'single quotes'
     '\vec': '\mathbf'
