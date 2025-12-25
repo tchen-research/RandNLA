@@ -28,7 +28,7 @@ Of course, as with measuring the [cost of numerical algorithms](./cost-of-numeri
 ## A priori bounds
 
 Much of the theory for RandNLA focuses on worst-case prior bounds.
-That is, bounds that gives accuracy guarantees for an algorithm (with the right choice of parameters) on every problem in a problem class, prior to running the algorithm.
+That is, bounds that give accuracy guarantees for an algorithm (with the right choice of parameters) on every problem in a problem class, prior to running the algorithm.
 This is similar to guarantees for deterministic algorithms. 
 However, the measures of accuracy we use must take into account the fact that the output of a randomized algorithm is random 🧐, and may therefore change from run to run.
 The two most common ways to do this are by expectation bounds or probability bounds. 
@@ -106,7 +106,7 @@ However, there seems to be a bit of an obsession in proving marginally better pr
 
 [^upper-to-upper]: You can't compare upper bounds of one algorithm to upper bounds of another algorithm and conclude that one is better than the other! You need some sort of lower bounds (e.g. by knowing that the upper bound is pretty sharp in practice).
 
-On the other hand, despite being arguably more important for practical computations, a posteriori bounds and parameter section techniques seem to be far less emphasized by the NLA community.
+On the other hand, despite being arguably more important for practical computations, a posteriori bounds and parameter selection techniques seem to be far less emphasized by the NLA community.
 
 
 

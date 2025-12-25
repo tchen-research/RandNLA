@@ -26,7 +26,7 @@ Which properties are approximated depends on the specific sketching method used,
 [^linear-sketch]: In RandNLA, sketching is almost always done using a linear transform of the original matrix.
 
 :::{sidebar} Like in drawing
-This is like how a [sketch](./https://en.wikipedia.org/wiki/Sketch_(drawing)) captures the essence of an original image without all the details.
+This is like how a [sketch](https://en.wikipedia.org/wiki/Sketch_(drawing)) captures the essence of an original image without all the details.
 ![Historical sketch drawing showing simplified lines capturing the essence of a detailed scene](https://upload.wikimedia.org/wikipedia/commons/3/32/Jesus_und_Ehebrecherin.jpg)
 :::
 

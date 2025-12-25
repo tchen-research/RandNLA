@@ -108,7 +108,7 @@ First, one notes that the Wasserstein distance has an equivalent definition
 For a *fixed* 1-Lipshitz functions, {prf:ref}`slq-equivalence` and {prf:ref}`slq-func` give that $m = O(1/(n\varepsilon^2))$ and $m = O(1/\varepsilon)$ (since the best $2k-1$ polynomial approximation to 1-Lipshitz functions converges like $\sim 1/k$).
 
 However, to bound the Wasserstein distance, we require the result holds for *all* 1-Lipshitz functions. 
-They key to exending to all 1-Lipshitz functions is to observe that Lipshitz functions have a stable Chebyshev series; i.e. a slight perturbation to their Chebyshev approximation still yields a good approximation. 
-Therefore, if we can approximate the Chevbyshev moments of $\varphi(x;\vec{A}) (traces of the Chebyshev polynomials) well, then we can (up to a slight loss) approximate any Lipshitz function.
+They key to extending to all 1-Lipshitz functions is to observe that Lipshitz functions have a stable Chebyshev series; i.e. a slight perturbation to their Chebyshev approximation still yields a good approximation. 
+Therefore, if we can approximate the Chebyshev moments of $\varphi(x;\vec{A}) (traces of the Chebyshev polynomials) well, then we can (up to a slight loss) approximate any Lipshitz function.
 :::
 
