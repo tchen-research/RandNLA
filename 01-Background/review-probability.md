@@ -64,7 +64,7 @@ Let $\vec{X}$ be a random matrix and $\vec{A}$ be a deterministic matrix. Then
 :enumerated: false
 We use the algebraic identity $(a-b)^2 = (a-c)^2 + (c-b)^2 + 2(a-c)(c-b)$ with $a = \vec{A}$, $b = \vec{X}$, and $c = \EE[\vec{X}]$:
 \begin{equation*}
-\|\vec{A} - \vec{X}\|_\F^2 &= \|\vec{A} - \EE[\vec{X}]\|_\F^2 + \|\EE[\vec{X}] - \vec{X}\|_\F^2 + 2\langle\vec{A} - \EE[\vec{X}], \EE[\vec{X}] - \vec{X}\rangle_\F,
+\|\vec{A} - \vec{X}\|_\F^2 = \|\vec{A} - \EE[\vec{X}]\|_\F^2 + \|\EE[\vec{X}] - \vec{X}\|_\F^2 + 2\langle\vec{A} - \EE[\vec{X}], \EE[\vec{X}] - \vec{X}\rangle_\F,
 \end{equation*}
 where $\langle \vec{X},\vec{Y}\rangle_\F := \tr(\vec{X}^\T\vec{Y})$.
 Next, by the linearity of expectation,
@@ -107,7 +107,7 @@ Let $\vec{X}_1, \ldots, \vec{X}_m$ be iid copies of $\vec{X}$. Then
 :class: dropdown
 :enumerated: false
 
-By [](thm-bias-variance) and [](def-variance), without loss of generality, we can assume $\EE[\vec{X}] = \vec{0}$.
+By [](#thm-bias-variance) and [](#def-variance), without loss of generality, we can assume $\EE[\vec{X}] = \vec{0}$.
 Then, expanding and using linearity of expectation and that $\vec{X}_i$ and $\vec{X}_j$ are independent (if $i\neq j$).
 \begin{equation*}
 \begin{aligned}

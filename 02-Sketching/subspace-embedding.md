@@ -79,7 +79,7 @@ Finally, note that
 \| \vec{V}^\T \vec{S}^\T \vec{S} \vec{V} - \vec{I} \|_2
 &= \max_{i} |\lambda_i(\vec{V}^\T \vec{S}^\T \vec{S} \vec{V}) - 1||
 \\&= \max_{i} |\smax(\vec{S}\vec{V})^2 - 1|
-\\&= \max\{ (1+\varepsilon)^2 - 1, 1 - (1-\varepsilon)^2 \}
+\\&\leq \max\{ (1+\varepsilon)^2 - 1, 1 - (1-\varepsilon)^2 \}
 \\&= \varepsilon(2+\varepsilon).
 \end{aligned}
 \end{equation*}

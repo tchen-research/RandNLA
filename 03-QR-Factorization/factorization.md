@@ -30,17 +30,16 @@ Given $\vec{A}\in\R^{n\times d}$ (full rank), find a matrix $\vec{Q}\in\R^{n\tim
 
 Classical algorithms for computing the QR factorization, such as the LAPACK methods underlying [`np.linalg.qr`](https://numpy.org/doc/stable/reference/generated/numpy.linalg.qr.html), are typically based on Householder reflections or Givens rotations.
 These algorithms are numerically stable and run in $O(nd^2)$ operations.
-However, these algorithms are inherently sequential, leading to relatively low [flop-rates](../01-Background/cost-of-numerical-linear-algebra.ipynb#Flops-are-not-necessarily-representative-of-cost) on modern hardware.
+However, these algorithms are inherently sequential, leading to relatively low [flop-rates](../01-Background/cost-of-numerical-linear-algebra.ipynb) on modern hardware.
 The algorithms presented in this chapter address this shortcoming.
 
 ## Other factorizations
 
-Many of the ideas we discuss in this chapter can be used to compute a singular value decomposition (SVD). 
-Alternately, on obtain an SVD decomposition of $\vec{A}$ efficiently from a QR factorization.
-Simply compute an SVD $\vec{R} = \vec{U}' \vec{\Sigma} \vec{V}^\T$ and then set $\vec{U} = \vec{Q} \vec{U}'$ to obtain an SVD $\vec{A} = \vec{U} \vec{\Sigma} \vec{V}^\T$.
+Many of the ideas we discuss in this chapter can be used to compute other factorizations.
+For instance to compute a singular value decomposition (SVD), simply compute an SVD $\vec{R} = \vec{U}' \vec{\Sigma} \vec{V}^\T$ and then set $\vec{U} = \vec{Q} \vec{U}'$ to obtain an SVD $\vec{A} = \vec{U} \vec{\Sigma} \vec{V}^\T$.
 
-
+This may be relevant for computing the matrix-sign function, which is used in the Muon optimizer {cite:p}`jordan_jin_boza_you_24` for training LLMs; see also Appendix F in {cite:p}`amsel_persson_musco_gower_25`.
 
 ## Further Reading
 - {cite:p}`epperly_24chokleskyqr`: Accessible blog post introducing randomized Cholesky QR
-- {cite:p}`fan_guo_lin_21,balabanov_22,higgins_etal_23,melnichenko_etal_25`: Recent research papers on the topic.
+- {cite:p}`fan_guo_lin_21,balabanov_22,higgins_etal_23,melnichenko_etal_25,dedamas_grigori_simunec_timsit_25`: Recent research papers and surveys on the topic.

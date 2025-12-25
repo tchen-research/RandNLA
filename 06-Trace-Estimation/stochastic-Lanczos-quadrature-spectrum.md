@@ -45,7 +45,7 @@ Consider the probability density
 ```{math}
 \psi_k(x;\vec{A},\vec{x}) := \frac{1}{n} \sum_{j=1}^{k} \omega_{j} \delta(x-\theta_{j}).
 ```
-This is the [Gaussian quadrature]() approximation to $\psi(x)$; i.e. the unique density function supported on $k$ points whose moments match $\psi(x)$ through degree $2k-1$. 
+This is the [Gaussian quadrature](https://mathworld.wolfram.com/GaussianQuadrature.html) approximation to $\psi(x)$; i.e. the unique density function supported on $k$ points whose moments match $\psi(x)$ through degree $2k-1$. 
 
 
 
@@ -66,7 +66,7 @@ The *stochastic Lanczos quadrature* approximation to $\phi(x;\vec{A})$ is
 :::
 
 
-Observe that the SLQ spectrum approximation defined here, and the [SLQ trace estimator](slq-trace) are compatible:
+Observe that the SLQ spectrum approximation defined here, and the [SLQ trace estimator](#slq-trace) are compatible:
 ```{math}
 :label: slq-equivalence
 

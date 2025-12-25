@@ -15,7 +15,7 @@ We focus on intuition and conceptual understanding, and provide a mixture of the
 Jupyter notebooks with the code examples can be downloaded from [Github](https://github.com/tchen-research/RandNLA).
 
 The intended audience is students and researchers new to the topic.
-Readers are expected to be familiar with (numerical) linear algebra and probability, but a basic refresher is provided [here](../01-Background/review.md).
+Readers are expected to be familiar with (numerical) linear algebra and probability, but a basic refresher is provided [here](./01-Background/review.md).
 The content covered would be appropriate for a short module on RandNLA in a numerical linear algebra course, or even as a weekend read for PhD students with a strong background in numerical linear algebra.
 
 
@@ -35,14 +35,14 @@ However, in large, these methods require consideration about their appropriatene
 
 Academic publishing is stuck using design choices that were made decades or centuries ago and are no longer relevant to the way information is created/consumed today 😞. 
 In my opinion:
-- Content creating and rendering should be though of as distinct tasks. 
+- Content creating and rendering should be thought of as distinct tasks. 
 This allows the content to be more easily rendered in a flexible manner (e.g. for different formats, devices, etc.)
 Everyone knows how annoying it is trying to read a PDF meant for letter paper on a phone.
 Separating content and rendering also helps with accessibility (PDFs are pretty bad for this).
 - Content shouldn't be designed for print first.
 Even with a requirement that the content be printable, we can still prioritize the much more common use-cases of reading on a computer or mobile device. Stuff like collapsible sections, hover-references, etc. can greatly improve the reading experience. 
 Without a requirement for an "offline" version, we can also use interactive content (e.g. code snippets, interactive figures, etc.).
-- With modern version control, we don't need to emphasize static content as much. By hosing documents online, we allow bugs/typos to be fixed more easily, while maintaining a history of changes.
+- With modern version control, we don't need to emphasize static content as much. By hosting documents online, we allow bugs/typos to be fixed more easily, while maintaining a history of changes.
 
 Over the past few years, flexible technical document preparation formats (e.g. [MyST Markdown](https://mystmd.org) used in this document) are becoming more powerful, making a project like this viable.
 This is partly my attempt to experiment with these new formats.

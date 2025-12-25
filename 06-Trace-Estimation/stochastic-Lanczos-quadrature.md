@@ -26,8 +26,8 @@ The Lanczos method for quadratic forms can be viewed as a Gaussian quadrature ap
 This connection is discussed in the next [section](./stochastic-Lanczos-quadrature-spectrum.md#Connection-to-quadrature)
 and in detail in {cite:p}`chen_24,chen_trogdon_ubaru_25`.
 :::
-Recall that using $k-1$ matrix-vector products with $\vec{A}$, the [Lanczos method for quadratic forms](def:lanczos-method) produces an approximation $\Call{Lan-QF}_k(f;\vec{A},\vec{x})$ that is an approximation to $\vec{x}^\T f(\vec{A})\vec{x}$.
-Stochastic Lanczos Quadrature (SLQ) simply combines this method with the [Girard-Hutchinson trace estimator](def:girard_hutchinson_estimator).
+Recall that using $k-1$ matrix-vector products with $\vec{A}$, the [Lanczos method for quadratic forms](#def:lanczos-method) produces an approximation $\Call{Lan-QF}_k(f;\vec{A},\vec{x})$ that is an approximation to $\vec{x}^\T f(\vec{A})\vec{x}$.
+Stochastic Lanczos Quadrature (SLQ) simply combines this method with the [Girard-Hutchinson trace estimator](#def:girard_hutchinson_estimator).
 
 
 :::{prf:definition}
@@ -69,7 +69,7 @@ Note that
 \VV\left[ \widehat{\tr}_m(f(\vec{A})) \right]
 = \frac{2 \| f(\vec{A}) \|_\F^2}{m},
 \end{equation*}
-where $\widehat{\tr}_m(\cdot)$ is the [Girard--Hutchinson estimator](./girard-hutchinson.ipynb#def:girard_hutchinson_estimator).
+where $\widehat{\tr}_m(\cdot)$ is the [Girard--Hutchinson estimator](#def:girard_hutchinson_estimator).
 
 Next, by the triangle inequality and {prf:ref}`thm:lanczos_FA_polynomial`, 
 \begin{equation*}\begin{aligned}

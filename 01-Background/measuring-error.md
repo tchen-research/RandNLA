@@ -64,7 +64,7 @@ One major advantage of working with probability bounds is the ability to handle 
 
 The choice between expectation and probability bounds depends on the application context. 
 Probability bounds are perhaps more intuitive to the general user, particularly in the case where the failure probability $\delta$ is so small as to never occur in practice.
-However, by [Markov's inequality](def-markov), an expectation bound {eq}`eqn-expectation-bound` implies a tail bound of the form:
+However, by [Markov's inequality](#def-markov), an expectation bound {eq}`eqn-expectation-bound` implies a tail bound of the form:
 \begin{equation*}
 \PP\left[\| \vec{x}^* - \widehat{\vec{x}} \| \leq 10 \varepsilon\right]
 \geq \frac{99}{100}.

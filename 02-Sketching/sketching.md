@@ -13,6 +13,7 @@ numbering:
     enumerator: 2.%s
   proof:proposition:
     enumerator: 2.%s
+  heading_2: false
 ---
 
 
@@ -41,16 +42,18 @@ This is like how a [sketch](./https://en.wikipedia.org/wiki/Sketch_(drawing)) ca
 
 
 An example of sketching is illustrated above. 
-Here a sketching matrix $\vec{S}$ with *sketching/embedding dimension* $k$ is applied to a $n\times d$ input matrix $\vec{A}$.
-The resulting $k\times d$ sketch $\vec{S}\vec{A}$ is much smaller than the original matrix.
+Here a sketching matrix $\vec{S}$ with *sketching/embedding dimension* $k$ is applied to a $n\times d$ input matrix $\vec{A}$ where $n\gg d$.
+The resulting $k\times d$ sketch $\vec{S}\vec{A}$ is much smaller than the original matrix, and can therefore be processed easily using classical techniques.
 
-When choosing a sketching distribution, two important considerations are:
+
+Perhaps the two important considerations when choosing a sketching distribution are:
 - How fast the sketching matrix can be generated and applied to $\vec{A}$, and
-- How well the sketch $\vec{S}\vec{A}$ approximates the original matrix $\vec{A}$.
+- How well the sketch $\vec{S}\vec{A}$ retains relevant information about the original matrix $\vec{A}$.
 
-While these two considerations are often at odds with each other, by choosing the sketch at random from a suitable distribution, we can often achieve a good balance between the two.
+While these considerations are often at odds with each other, by choosing the sketch at random from a suitable distribution, we can often achieve a good balance between the two.
 In fact, in many algorithms in RandNLA, the randomness in the sketching matrix is the only source of randomness in the entire problem, and is only needed to ensure the above two considerations.
 
+## Mixing vs sampling
 
 In this book, we treat sketches that [mix](./mixing-sketches.md) the rows of $\vec{A}$ and sketches that  [subsample](./subsampling-sketches.md) the rows of $\vec{A}$ as conceptually different.
 We primarily focus on algorithms based on mixing-based sketches, since these tend to be most suitable as a default choice algorithm in many settings. 
