@@ -47,7 +47,7 @@ Suppose the $\vec{x}_i$ are independent standard Gaussian vectors.
 For any $k,m\geq 1$, the SLQ estimator uses $(k-1)m$ matrix-vector products to $\vec{A}$ and satisfies
 \begin{equation*}
 \EE\left[ | \tr(f(\vec{A})) - \Call{SLQ}_{k,m}(f;\vec{A}) |^2 \right]
-\leq \frac{4\| f(\vec{A}) \|_\F^2}{m} + 6n^2  \min_{\deg(p)<2k-1} \left( \max_{x\in[\lambda_n,\lambda_1]} | f(x) - p(x) | \right).
+\leq \frac{4\| f(\vec{A}) \|_\F^2}{m} + 6n^2  \min_{\deg(p)<2k-1} \left( \max_{x\in[\lambda_n,\lambda_1]} | f(x) - p(x) |^2 \right).
 \end{equation*}
 :::
 
@@ -82,7 +82,7 @@ Hence,
 \begin{equation*}\begin{aligned}
 \hspace{2em}&\hspace{-2em}
 \EE\left[ \left| \frac{1}{m}\sum_{i=1}^{m} \vec{x}_i^\T f(\vec{A})\vec{x}_i - \Call{Lan-QF}_k(f;\vec{A},\vec{x}_i) \right|^2 \right]
-\\&\leq \frac{1}{m^2}\EE\left[  \left(\sum_{i=1}^{m} \|\vec{x}_i\|^2 \right)^2 \right] \min_{\deg(p)<2k-1} \max_{x\in[\lambda_n,\lambda_1]} | f(x) - p(x) |
+\\&\leq \frac{1}{m^2}\EE\left[  \left(\sum_{i=1}^{m} \|\vec{x}_i\|^2 \right)^2 \right] \min_{\deg(p)<2k-1} \max_{x\in[\lambda_n,\lambda_1]} | f(x) - p(x) |^2
 \end{aligned}\end{equation*}
 Now, note that $\sum_{i=1}^{m} \|\vec{x}_i\|^2$ is a Chi-squared random variable with $mn$ degrees of freedom. 
 By looking on [Wikipedia](https://en.wikipedia.org/wiki/Chi-squared_distribution), we see that
